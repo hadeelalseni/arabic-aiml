@@ -1,0 +1,1971 @@
+<?xml version="1.0" encoding="utf-8"?>
+<aiml version="2.0">
+
+    <meta name="language" content="ar"/>
+	
+	<category>
+        <pattern>لا</pattern>
+        <template>
+		<random>
+		<li>تمام</li>
+		<li>فهمت</li>
+		<li>اها</li>
+		<li>هذا اللي تقوله؟</li>
+		</random>
+        </template>
+    </category>
+	
+	<category>
+		<pattern>لا</pattern>
+		<that>هل أنت طالب في المدرسة؟</that>
+	<template>ماهي وظيفتك اذا؟</template>	
+	</category>
+	<category>
+	    <pattern>لا</pattern>
+	    <that>هل انت طالب في المدرسه؟</that>
+	    <template>ماهي وظيفتك اذا؟</template>	
+	</category>
+	
+	<category>
+	    <pattern>لا</pattern>
+	    <that>هل تعاني من الملل؟</that>
+	    <template>إشغال وقتنا بما يفيدنا شيء ممتاز</template>	
+	</category>
+
+	<category>
+	    <pattern>لا</pattern>
+	    <that>هل أنت متفرغ؟</that>
+	    <template>ليش لا؟</template>	
+	</category>
+	
+	<category>
+	    <pattern>لا</pattern>
+	    <that>هل أنت من السعودية؟</that>
+	    <template>من أين أنت؟</template>	
+	</category>
+	<category>
+	    <pattern>لا</pattern>
+	    <that>هل انت من السعوديه؟</that>
+	    <template>من أين أنت؟</template>	
+	</category>
+	
+	<category>
+	    <pattern>لا</pattern>
+	    <that>هل هناك مشكلة؟</that>
+	    <template>جميل، اتمنى لك حياة هادئة</template>	
+	</category>
+	<category>
+	    <pattern>لا</pattern>
+	    <that>هل هناك مشكله؟</that>
+	    <template>يا إلهي، كيف يمكنني مساعدتك؟</template>	
+	</category>
+	
+	<category>
+	    <pattern>لا</pattern>
+	    <that>طفشت؟</that>
+	    <template>حلو بس بتأكد</template>	
+	</category>
+	
+	<category>
+	    <pattern>لا</pattern>
+	    <that>هل أنت متزوج؟</that>
+	    <template>إذا هل تفكر بالزواج؟</template>
+		<!--
+		<template><sari>أنا أعزب</sari></template>
+		<template><sari>انا اعزب</sari></template>
+		-->
+	</category>
+	
+	<category>
+	    <pattern>لا</pattern>
+	    <that>هل يهمك هذا؟</that>
+	    <template>نعم يبدو ذلك</template>	
+	</category>
+	
+	<category>
+	    <pattern>لا</pattern>
+	    <that>هل أنت متأكد من ذلك؟</that>
+	    <template>أنا لا أعتقد هذا.</template>	
+	</category>
+	
+	<category>
+	    <pattern>لا</pattern>
+	    <that>هل تتكلم عنه؟</that>
+	    <template>عن مين تتكلم؟</template>	
+	</category>
+	
+	<category>
+	    <pattern>لا</pattern>
+	    <that>تقول الحقيقة؟</that>
+	    <template>الكذب لا يجوز</template>
+		<!--
+		<template><sari>أنا أكذب</sari></template>
+		<template><sari>انا كاذب</sari></template>
+		<template><sari>انا اكذب</sari></template>
+		<template><sari>أنا كاذب</sari></template>
+		-->
+	</category>
+	
+	<category>
+	    <pattern>لا</pattern>
+	    <that>أتقصد بنحن أنا وأنت</that>
+	    <template>تقصد بنحن أنت وشخص آخر.</template>	
+	</category>
+	
+	<category>
+	    <pattern>لا</pattern>
+	    <that>هل أستطيع مساعدتك؟</that>
+	    <template>أتريد أن تخبرني بشيء؟</template>	
+	</category>
+	
+	<category>
+	    <pattern>لا</pattern>
+	    <that>هل تستطيع أن تكون أكثر أدبا؟</that>
+	    <template>الأدب من شيم الأخلاق.</template>	
+	</category>
+	
+	<category>
+	    <pattern>لا</pattern>
+	    <that>هل تستطيع أن توضح أكثر؟</that>
+	    <template>حاول.</template>	
+	</category>
+	
+	<category>
+	    <pattern>لا</pattern>
+	    <that>هل لديك هواية قديمة تتمنى أن تمارسها مرة أخرى؟</that>
+	    <template>هل لديك هوايات؟</template>	
+	</category>
+	
+	<category>
+	    <pattern>لا</pattern>
+	    <that>أنت لم تفهم هذا</that>
+	    <template>مالذي لم تفهمه بالضبط؟</template>	
+	</category>
+	
+	<category>
+	    <pattern>لا</pattern>
+	    <that>هل سمعت عن *</that>
+	    <template>تمزح.</template>	
+	</category>
+	
+	<category>
+	    <pattern>لا</pattern>
+	    <that>عندك فكرة عن إيش أتكلم؟</that>
+	    <template>أنا كمان ^^.</template>	
+	</category>
+	<category>
+	    <pattern>لا</pattern>
+	    <that>هل لديك فكرة عن ماذاأتحدث؟</that>
+	    <template>أنا أيضا ^^.</template>	
+	</category>
+	
+	<category>
+	    <pattern>لا</pattern>
+	    <that>تعرف أحد عنده؟</that>
+	    <template>أنا كمان ^^.</template>	
+	</category>
+	<category>
+	    <pattern>لا</pattern>
+	    <that>هل تعرف شخص يملكه؟</that>
+	    <template>أنا أيضا ^^.</template>	
+	</category>
+	
+	<category>
+	    <pattern>لا</pattern>
+	    <that>تحب تتكلم معايا؟</that>
+	    <template>ليش؟ :-( </template>	
+	</category>
+	<category>
+	    <pattern>لا</pattern>
+	    <that>هل يعجبك الحديث معي؟</that>
+	    <template>ولكن لماذا؟ :(</template>	
+	</category>
+	
+	<category>
+	    <pattern>لا</pattern>
+	    <that>تقصد هذا؟</that>
+	    <template>أتوقع إنك تمزح.</template>	
+	</category>
+	
+	<category>
+	    <pattern>لا</pattern>
+	    <that>هل تعني ذلك حقا؟</that>
+	    <template>أنا لا أعتقد أنك فعلت.</template>	
+	</category>
+	
+	<category>
+	    <pattern>لا</pattern>
+	    <that>يعني اسمك هو * ؟</that>
+	    <template>أجل، ايش اسمك؟</template>	
+	</category>
+
+	<category>
+	    <pattern>لا</pattern>
+	    <that>هل تستخدم الكومبيوتر هناك دائما؟</that>
+	    <template>من أين تتصل دائما؟</template>	
+	</category>
+	
+	<category>
+	    <pattern>لا</pattern>
+	    <that>هل لازلت تحادثني؟</that>
+	    <template>حسنا، أراك لاحقا، إلى اللقاء.</template>	
+	</category>
+	<category>
+	    <pattern>لا</pattern>
+	    <that>معايا؟</that>
+	    <template>طيب، مع السلامة.</template>	
+	</category>
+	
+	<category>
+	    <pattern>لا</pattern>
+	    <that>يعني وافقت؟</that>
+		<!--
+		<template><sari>لا أوافق</sari></template>
+		-->
+	    <template>اوه.</template>	
+	</category>
+	<category>
+	    <pattern>لا</pattern>
+	    <that>يعني وافقت؟</that>
+		<!--
+		<template><sari>لا اوافق</sari></template>
+		-->
+	    <template>اوه.</template>	
+	</category>
+	
+	<category>
+	    <pattern>لا</pattern>
+	    <that>هل إشارتي السالب تعني إشارة موجبة؟</that>
+	    <template>تعني ذلك أحيانا.</template>	
+	</category>
+	
+	<category>
+	    <pattern>لا</pattern>
+	    <that>لأسباب معنوية</that>
+	    <template>لأسباب مالية؟</template>	
+	</category>
+	
+	<category>
+	    <pattern>لا</pattern>
+	    <that>ابدأ</that>
+	    <template>طيب تمام.</template>	
+	</category>
+	
+	<category>
+	    <pattern>لا</pattern>
+	    <that>أخبرني بالمزيد</that>
+	    <template>ماذا تحب أن نتحدث؟</template>	
+	</category>
+	
+	<category>
+	    <pattern>لا</pattern>
+	    <that>هل ذهبت سابقا إلى أوروبا؟</that>
+	    <template>أين تتمنى أن تسافر؟</template>	
+	</category>
+
+	<category>
+	    <pattern>لا</pattern>
+	    <that>هل قرأته؟</that>
+	    <template>أنصحك به.</template>	
+	</category>
+
+	<category>
+	    <pattern>لا</pattern>
+	    <that>هل رأيته؟</that>
+	    <template>أنصحك به.</template>	
+	</category>
+	
+	<category>
+	    <pattern>لا</pattern>
+	    <that>جربت تبحث في النت؟</that>
+	    <template>سيكون بداية جيدة.</template>	
+	</category>
+	
+	<category>
+	    <pattern>لا</pattern>
+	    <that>هل إشارتي السالب تعني إشارة موجبة؟</that>
+	    <template>تعني ذلك أحيانا.</template>	
+	</category>
+	
+	<category>
+	    <pattern>لا</pattern>
+	    <that>أستطيع أن أسأل أحدهم عنه</that>
+	    <template>فهمتك غلط؟</template>	
+	</category>
+	
+	<category>
+	    <pattern>لا</pattern>
+	    <that>لست مجبرة على شرح كل شيء لك، مو؟</that>
+	    <template>صحيح.</template>	
+	</category>
+	
+	<category>
+	    <pattern>لا</pattern>
+	    <that>الموضوع هو  * ؟</that>
+	    <template>إيش الموضوع؟</template>	
+	</category>
+	
+	<category>
+	    <pattern>لا</pattern>
+	    <that>أرى ذلك.</that>
+	    <template>نعم أنا أفعل.</template>	
+	</category>
+	
+	<category>
+	    <pattern>لا</pattern>
+	    <that>اعتقدت أني أخبرت * </that>
+	    <template>لقد اختلط علي ذلك، هناك متصلون كثر الآن.</template>	
+	</category>
+	
+	<category>
+	    <pattern>لا</pattern>
+	    <that>اعتقدت أني أخبرتك سابقا</that>
+	    <template>حسنا.</template>	
+	</category>
+	
+	<category>
+	    <pattern>لا</pattern>
+	    <that>فهمت.</that>
+		<!--
+		<template><sari>أنت لم تفهم.</sari></template>
+		-->
+	    <template>ايش قصدك؟</template>	
+	</category>
+	<category>
+	    <pattern>لا</pattern>
+	    <that>فهمت.</that>
+		<!--
+		<template><sari>انت لم تفهم</sari></template>
+		-->
+	    <template>ايش قصدك؟</template>	
+	</category>
+	
+	<category>
+	    <pattern>لا</pattern>
+	    <that>فهمته جيدا.</that>
+		<!--
+		<template><sari>أنت لم تفهم.</sari></template>
+		-->
+	    <template>ايش قصدك؟</template>	
+	</category>
+	<category>
+	    <pattern>لا</pattern>
+	    <that>فهمته جيدا.</that>
+		<!--
+		<template><sari>انت لم تفهم</sari></template>
+		-->
+	    <template>ايش قصدك؟</template>	
+	</category>
+	
+	<category>
+	    <pattern>لا</pattern>
+	    <that>سأبحث عنه.</that>
+	    <template>فهمتك غلط؟</template>	
+	</category>
+	
+	<category>
+	    <pattern>لا</pattern>
+	    <that>هو فيلم؟</that>
+	    <template>برنامج تلفيزيوني؟</template>	
+	</category>
+	
+	<category>
+	    <pattern>لا</pattern>
+	    <that>هذا كل اللي بتقوله</that>
+	    <template>استمر، أخبرني بالمزيد.</template>	
+	</category>
+	
+	<category>
+	    <pattern>لا</pattern>
+	    <that>هذه اجابتك النهائية؟</that>
+	    <template>خذ وقتك.</template>	
+	</category>
+	
+	<category>
+	    <pattern>لا</pattern>
+	    <that>فيه صدى؟</that>
+	    <template>كويس، وقفت تكرر كلامي.</template>	
+	</category>
+	
+	<category>
+	    <pattern>لا</pattern>
+	    <that>هل هناك أي * ؟</that>
+	    <template>هل تريد سؤالي حول أمر ما؟</template>	
+	</category>
+	
+	<category>
+	    <pattern>لا</pattern>
+	    <that>تريد إخباري بشيء؟</that>
+	    <template>أو تسألني؟</template>	
+	</category>
+	
+	<category>
+	    <pattern>لا</pattern>
+	    <that>هل يوجد واحد فقط  *</that>
+	    <template>كم يوجد؟</template>	
+	</category>
+	
+	<category>
+	    <pattern>لا</pattern>
+	    <that>هل هذا سؤال رياضي؟</that>
+	    <template>يبدو أنه إختبار ذكاء بالنسبة لي.</template>	
+	</category>
+	
+	<category>
+	    <pattern>لا</pattern>
+	    <that>هذا لغز؟</that>
+	    <template>كأنه لغز.</template>	
+	</category>
+	
+	<category>
+	    <pattern>لا</pattern>
+	    <that>هذه خدعة؟</that>
+	    <template>كأنه خدعة.</template>	
+	</category>
+	
+	<category>
+	    <pattern>لا</pattern>
+	    <that>إلا</that>
+	    <template>مين يقول لا؟</template>	
+	</category>
+	
+	<category>
+	    <pattern>لا</pattern>
+	    <that>طيب تصفح مواقع ثانية</that>
+	    <template>طيب كلمني.</template>	
+	</category>
+	
+	<category>
+	    <pattern>لا</pattern>
+	    <that>طيب نغير الموضوع</that>
+	    <template>اممم.</template>	
+	</category>
+	
+	<category>
+	    <pattern>لا</pattern>
+	    <that>مثل هذا؟</that>
+	    <template><sari>اعرض لي صورة أخرى</sari></template>	
+	</category>
+	<category>
+	    <pattern>لا</pattern>
+	    <that>مثل هذا؟</that>
+	    <template><sari>اعرض لي صوره اخرى</sari></template>	
+	</category>
+	<category>
+	    <pattern>لا</pattern>
+	    <that>مثل هذا؟</that>
+	    <template><sari>وريني صورة ثانية</sari></template>	
+	</category>
+	<category>
+	    <pattern>لا</pattern>
+	    <that>مثل هذا؟</that>
+	    <template><sari>وريني صوره ثانيه</sari></template>	
+	</category>
+	
+	<category>
+	    <pattern>لا</pattern>
+	    <that>أكثر من مئة؟</that>
+	    <template>أقل من عشرة؟</template>	
+	</category>
+	
+	<category>
+	    <pattern>لا</pattern>
+	    <that>السؤال التالي</that>
+	    <template>ماذا إذا؟</template>	
+	</category>
+	
+	<category>
+	    <pattern>لا</pattern>
+	    <that>لا</that>
+	    <template>لا لا لا لا!</template>	
+	</category>
+	
+	<category>
+	    <pattern>لا</pattern>
+	    <that>لا توجد قواعد أو شروط يجب أن أعرفها</that>
+	    <template>لم أفهم</template>	
+	</category>
+	
+	<category>
+	    <pattern>لا</pattern>
+	    <that>لا شيء</that>
+	    <template>هذا ممتع.</template>	
+	</category>
+	
+	<category>
+	    <pattern>لا</pattern>
+	    <that>ولا واحد</that>
+	    <template>اممم.</template>	
+	</category>
+	
+	<category>
+	    <pattern>لا</pattern>
+	    <that>أوه أنت شاعر</that>
+	    <template>لكن كلماتك مؤثرة.</template>	
+	</category>
+	
+	<category>
+	    <pattern>لا</pattern>
+	    <that>أوه أنت لا تفعل هذا</that>
+	    <template>اها تمزح معايا.</template>	
+	</category>
+	
+	<category>
+	    <pattern>لا</pattern>
+	    <that>تمام</that>
+	    <template>طيب.</template>	
+	</category>
+	
+	<category>
+	    <pattern>لا</pattern>
+	    <that>سأتوقف عن الكلام الآن.</that>
+	    <template>لكنك أخبرتني أن أتوقف عن الكلام.</template>	
+	</category>
+	
+	<category>
+	    <pattern>لا</pattern>
+	    <that>حقا لا تفكر بهذا</that>
+	    <template>أخبرني بماذا تفكر؟</template>	
+	</category>
+	
+	<category>
+	    <pattern>لا</pattern>
+	    <that>أراك لاحقا</that>
+	    <template>أيا كان.</template>	
+	</category>
+	<category>
+	    <pattern>لا</pattern>
+	    <that>إلى اللقاء</that>
+	    <template>أيا كان.</template>	
+	</category>
+	<category>
+	    <pattern>لا</pattern>
+	    <that>مع السلامة</that>
+	    <template>أيا كان.</template>	
+	</category>
+	<category>
+	    <pattern>لا</pattern>
+	    <that>مع السلامه</that>
+	    <template>أيا كان.</template>	
+	</category>
+	
+	<category>
+	    <pattern>لا</pattern>
+	    <that>هل يجب أن أعرفه؟</that>
+	    <template>لم أعتقد هذا أيضا.</template>	
+	</category>
+	
+	<category>
+	    <pattern>لا</pattern>
+	    <that>هل ستصبح مشكلة؟</that>
+	    <template>لم أعتقد هذا. لحظة. </template>	
+	</category>
+	
+	<category>
+	    <pattern>لا</pattern>
+	    <that>احكي لي حكاية</that>
+	    <template>طيب، أخبرني عن نفسك.</template>	
+	</category>
+	
+	<category>
+	    <pattern>لا</pattern>
+	    <that>أخبرني بالمزيد.</that>
+	    <template>ماذا تريد أن نتحدث؟</template>	
+	</category>
+	
+	<category>
+	    <pattern>لا</pattern>
+	    <that>أخبرني عن والدتك</that>
+	    <template>أخبرني عن خلفيتك العلمية.</template>	
+	</category>
+	
+	<category>
+	    <pattern>لا</pattern>
+	    <that>هل هذا سؤال افتراضي؟</that>
+	    <template>نعم إنه كذلك.</template>	
+	</category>
+	
+	<category>
+	    <pattern>لا</pattern>
+	    <that>هذا مو سؤال نعم أو لا</that>
+	    <template>الآن قلت "لا" ؟</template>	
+	</category>
+	
+	<category>
+	    <pattern>لا</pattern>
+	    <that>طيب خلينا نتكلم عن شيء ثاني</that>
+	    <template>ليش لا؟</template>	
+	</category>
+	
+	<category>
+	    <pattern>لا</pattern>
+	    <that>أخبرني عن نفسك</that>
+	    <template>أين درست في مرحلتك الابتدائية؟</template>	
+	</category>
+	
+	<category>
+	    <pattern>لا</pattern>
+	    <that> حاول *</that>
+	    <template>ليش لا؟</template>	
+	</category>
+	
+	<category>
+	    <pattern>لا</pattern>
+	    <that>جربه</that>
+	    <template>ليش لا؟</template>	
+	</category>
+	
+	<category>
+	    <pattern>لا</pattern>
+	    <that> ماذا يعني *</that>
+	    <template>هذا مو سؤال نعم أو لا.</template>	
+	</category>
+	<category>
+	    <pattern>لا</pattern>
+	    <that> ايش *</that>
+	    <template>هذا مو سؤال نعم أو لا.</template>	
+	</category>
+	<category>
+	    <pattern>لا</pattern>
+	    <that> ايش يعني *</that>
+	    <template>هذا مو سؤال نعم أو لا.</template>	
+	</category>
+	
+	<category>
+	    <pattern>لا</pattern>
+	    <that> أين *</that>
+	    <template>هذا مو سؤال نعم أو لا.</template>	
+	</category>
+	
+	<category>
+	    <pattern>لا</pattern>
+	    <that> هل تفضل *</that>
+	    <template>ليش لا؟</template>	
+	</category>
+	
+	<category>
+	    <pattern>لا</pattern>
+	    <that> ماذا يعني *</that>
+	    <template>هذا مو سؤال نعم أو لا.</template>	
+	</category>
+
+	<category>
+	    <pattern>لا</pattern>
+	    <that> هل فعلت هذا سابقا؟</that>
+	    <template>أنا أيضا.</template>	
+	</category>
+	
+	<category>
+	    <pattern>لا</pattern>
+	    <that> هل تحب السفر بعض الأحيان</that>
+	    <template>أين تحب السفر؟</template>	
+	</category>
+	
+	<category>
+	    <pattern>لا</pattern>
+	    <that>هل تحب أن تكون هناك؟</that>
+	    <template>امم أنا لست أدري.</template>	
+	</category>
+	
+	<category>
+	    <pattern>لا</pattern>
+	    <that> هل تريد أن تعرف المزيد؟</that>
+	    <template>فهمت. أنت تفضل تعرف أقل.</template>	
+	</category>
+	
+	<category>
+	    <pattern>لا</pattern>
+	    <that> نعم أعتقد ذلك</that>
+	    <template>ماذا تعتقد أنت؟</template>	
+	</category>
+	
+	<category>
+	    <pattern>لا</pattern>
+	    <that> نعم أؤمن بذلك</that>
+	    <template>بماذا تؤمن أنت؟</template>	
+	</category>
+	
+	<category>
+	    <pattern>لا</pattern>
+	    <that> نعم لقد فعلت</that>
+	    <template>أفعل ذلك</template>	
+	</category>
+	
+	<category>
+	    <pattern>لا</pattern>
+	    <that> أنت شاعر</that>
+	    <template>لكنك أصيل جدا.</template>	
+	</category>
+	
+	<category>
+	    <pattern>لا</pattern>
+	    <that> تسأل عن نفسك</that>
+	    <template>تسأل عن مين؟</template>	
+	</category>
+	
+	<category>
+	    <pattern>لا</pattern>
+	    <that> أنت أكبر مني كثيرا</that>
+	    <template>ولكن أنا ولدت في  <bot name="birthday"/></template>	
+	</category>
+	
+	<category>
+	    <pattern>لا</pattern>
+	    <that>اسمك *</that>
+	    <template>ماهو اسمك؟</template>	
+	</category>
+	
+	<category>
+	    <pattern>* لا</pattern>
+	    <template><sari>لا</sari></template>	
+	</category>
+	
+	<category>
+	    <pattern>لا تفعل </pattern>
+		<that>حسنا سأتوقف عن الكلام</that>
+	    <template>جيد، استمر في الحديث معي.</template>	
+	</category>
+	
+	<category>
+	    <pattern>لا وأنت؟</pattern>
+		<that>هل ذهبت إلى أوروبا؟</that>
+	    <template> لقد شاهدتها في الانترنت</template>	
+	</category>
+	<category>
+	    <pattern>لا وانت؟</pattern>
+		<that>هل ذهبت إلى أوروبا؟</that>
+	    <template> لقد شاهدتها في الانترنت</template>	
+	</category>
+	<category>
+	    <pattern>لا انتي؟</pattern>
+		<that>هل ذهبت إلى أوروبا؟</that>
+	    <template> لقد شاهدتها في الانترنت</template>	
+	</category>
+	<category>
+	    <pattern>لا أنتي؟</pattern>
+		<that>هل ذهبت إلى أوروبا؟</that>
+	    <template> لقد شاهدتها في الانترنت</template>	
+	</category>
+	<category>
+	    <pattern>لا وأنتي؟</pattern>
+		<that>هل ذهبت إلى أوروبا؟</that>
+	    <template> لقد شاهدتها في الانترنت</template>	
+	</category>
+	
+	<category>
+	    <pattern>لا لم أفهم</pattern>
+		<that>لم تفهم ذلك</that>
+	    <template> مالذي لم تفهمه بالضبط؟</template>	
+	</category>
+	<category>
+	    <pattern>لا</pattern>
+		<that>لم تفهم ذلك</that>
+	    <template> مالذي لم تفهمه بالضبط؟</template>	
+	</category>
+	<category>
+	    <pattern>لا ما فهمت</pattern>
+		<that>لم تفهم ذلك</that>
+	    <template> مالذي لم تفهمه بالضبط؟</template>	
+	</category>
+	<category>
+	    <pattern>ما فهمت</pattern>
+		<that>لم تفهم ذلك</that>
+	    <template> مالذي لم تفهمه بالضبط؟</template>	
+	</category>
+	<category>
+	    <pattern>م فهمت</pattern>
+		<that>لم تفهم ذلك</that>
+	    <template> مالذي لم تفهمه بالضبط؟</template>	
+	</category>
+	
+	<category>
+	    <pattern>لا</pattern>
+		<that>أنت قلت هذا</that>
+	    <template> شيء ما يشبهه</template>	
+	</category>
+	<category>
+	    <pattern>لا ما قلت</pattern>
+		<that>أنت قلت هذا</that>
+	    <template> شيء ما يشبهه</template>	
+	</category>
+	<category>
+	    <pattern>ما قلت</pattern>
+		<that>أنت قلت هذا</that>
+	    <template> شيء ما يشبهه</template>	
+	</category>
+	<category>
+	    <pattern>لا لم أقل هذا</pattern>
+		<that>أنت قلت هذا</that>
+	    <template> شيء ما يشبهه</template>	
+	</category>
+	<category>
+	    <pattern>لم أقل هذا</pattern>
+		<that>أنت قلت هذا</that>
+	    <template> شيء ما يشبهه</template>	
+	</category>
+	<category>
+	    <pattern>لا لم اقل هذا</pattern>
+		<that>أنت قلت هذا</that>
+	    <template> شيء ما يشبهه</template>	
+	</category>
+	<category>
+	    <pattern>لم اقل هذا</pattern>
+		<that>أنت قلت هذا</that>
+	    <template> شيء ما يشبهه</template>	
+	</category>
+	
+	<category>
+	    <pattern>لا</pattern>
+		<that>أنت لا تثق بي</that>
+	    <template> لا أملك أي دافع لخداعك.</template>	
+	</category>
+	<category>
+	    <pattern>لا لم أفعل</pattern>
+		<that>أنت لا تثق بي</that>
+	    <template> لا أملك أي دافع لخداعك.</template>	
+	</category>
+	<category>
+	    <pattern>إلا</pattern>
+		<that>أنت لا تثق بي</that>
+	    <template> لا أملك أي دافع لخداعك.</template>	
+	</category>
+	<category>
+	    <pattern>مين قال</pattern>
+		<that>أنت لا تثق بي</that>
+	    <template> لا أملك أي دافع لخداعك.</template>	
+	</category>
+	<category>
+	    <pattern>مين قال؟</pattern>
+		<that>أنت لا تثق بي</that>
+	    <template> لا أملك أي دافع لخداعك.</template>	
+	</category>
+	
+	<category>
+	    <pattern>لا</pattern>
+		<that>الوحدة أجمل بكثير</that>
+	    <template> جيد، إنها غير ممتعة.</template>	
+	</category>
+	<category>
+	    <pattern>لا ليست كذلك</pattern>
+		<that>الوحدة أجمل بكثير</that>
+	    <template> جيد، إنها غير ممتعة.</template>	
+	</category>
+	<category>
+	    <pattern>ليست كذلك</pattern>
+		<that>الوحدة أجمل بكثير</that>
+	    <template> جيد، إنها غير ممتعة.</template>	
+	</category>
+	<category>
+	    <pattern>خطأ</pattern>
+		<that>الوحدة أجمل بكثير</that>
+	    <template> جيد، إنها غير ممتعة.</template>	
+	</category>
+	<category>
+	    <pattern>خطا</pattern>
+		<that>الوحدة أجمل بكثير</that>
+	    <template> جيد، إنها غير ممتعة.</template>	
+	</category>
+	<category>
+	    <pattern>غلط</pattern>
+		<that>الوحدة أجمل بكثير</that>
+	    <template> جيد، إنها غير ممتعة.</template>	
+	</category>
+	<category>
+	    <pattern>لا غلط</pattern>
+		<that>الوحدة أجمل بكثير</that>
+	    <template> جيد، إنها غير ممتعة.</template>	
+	</category>
+	<category>
+	    <pattern>غير صحيح</pattern>
+		<that>الوحدة أجمل بكثير</that>
+	    <template> جيد، إنها غير ممتعة.</template>	
+	</category>
+	<category>
+	    <pattern>لا غير صحيح</pattern>
+		<that>الوحدة أجمل بكثير</that>
+	    <template> جيد، إنها غير ممتعة.</template>	
+	</category>
+	
+	<category>
+	    <pattern>لا</pattern>
+		<that>هذه الحقيقة</that>
+	    <template> لا تجادلني.</template>	
+	</category>
+	<category>
+	    <pattern>لا ليست كذلك</pattern>
+		<that>هذه الحقيقة</that>
+	    <template> لا تجادلني.</template>	
+	</category>
+	<category>
+	    <pattern>لا أعتقد</pattern>
+		<that>هذه الحقيقة</that>
+	    <template> لا تجادلني.</template>	
+	</category>
+	<category>
+	    <pattern>خطا</pattern>
+		<that>هذه الحقيقة</that>
+	    <template> لا تجادلني.</template>	
+	</category>
+	<category>
+	    <pattern>خطأ</pattern>
+		<that>هذه الحقيقة</that>
+	    <template> لا تجادلني.</template>	
+	</category>
+	<category>
+	    <pattern>كذب</pattern>
+		<that>هذه الحقيقة</that>
+	    <template> لا تجادلني.</template>	
+	</category>
+	<category>
+	    <pattern>غير صحيح</pattern>
+		<that>هذه الحقيقة</that>
+	    <template> لا تجادلني.</template>	
+	</category>
+	
+	<category>
+	    <pattern>لا أحد</pattern>
+		<that>من أخبرك بهذا؟</that>
+	    <template> كيف عرفت ذلك إذا؟</template>	
+	</category>
+	<category>
+	    <pattern>لا احد</pattern>
+		<that>من أخبرك بهذا؟</that>
+	    <template> كيف عرفت ذلك إذا؟</template>	
+	</category>
+	<category>
+	    <pattern>محد</pattern>
+		<that>من أخبرك بهذا؟</that>
+	    <template> كيف عرفت ذلك إذا؟</template>	
+	</category>
+	<category>
+	    <pattern>لم يخبرني أحد</pattern>
+		<that>من أخبرك بهذا؟</that>
+	    <template> كيف عرفت ذلك إذا؟</template>	
+	</category>
+	<category>
+	    <pattern>لم يخبرني احد</pattern>
+		<that>من أخبرك بهذا؟</that>
+	    <template> كيف عرفت ذلك إذا؟</template>	
+	</category>
+	
+	<category>
+	    <pattern>لا مشكلة</pattern>
+		<that>حسنا، شكرا لتوضيحك.</that>
+	    <template>السؤال التالي؟</template>	
+	</category>
+	<category>
+	    <pattern>لا مشكله</pattern>
+		<that>حسنا، شكرا لتوضيحك.</that>
+	    <template>السؤال التالي؟</template>	
+	</category>
+	<category>
+	    <pattern>مو مشكلة</pattern>
+		<that>حسنا، شكرا لتوضيحك.</that>
+	    <template>السؤال التالي؟</template>	
+	</category>
+	<category>
+	    <pattern>مو مشكله</pattern>
+		<that>حسنا، شكرا لتوضيحك.</that>
+	    <template>السؤال التالي؟</template>	
+	</category>
+	<category>
+	    <pattern>لا عادي</pattern>
+		<that>حسنا، شكرا لتوضيحك.</that>
+	    <template>السؤال التالي؟</template>	
+	</category>
+	<category>
+	    <pattern>عفوا</pattern>
+		<that>حسنا، شكرا لتوضيحك.</that>
+	    <template>السؤال التالي؟</template>	
+	</category>
+	<category>
+	    <pattern>العفو</pattern>
+		<that>حسنا، شكرا لتوضيحك.</that>
+	    <template>السؤال التالي؟</template>	
+	</category>
+	<category>
+	    <pattern>ولو</pattern>
+		<that>حسنا، شكرا لتوضيحك.</that>
+	    <template>السؤال التالي؟</template>	
+	</category>
+	
+	<category>
+	    <pattern>لا مشكلة</pattern>
+		<that>حسنا. شكرا لجوابك.</that>
+	    <template>اسألني سؤال آخر.</template>	
+	</category>
+	<category>
+	    <pattern>لا مشكله</pattern>
+		<that>حسنا. شكرا لجوابك.</that>
+	    <template>اسألني سؤال آخر.</template>	
+	</category>
+	<category>
+	    <pattern>مو مشكلة</pattern>
+		<that>حسنا. شكرا لجوابك.</that>
+	    <template>اسألني سؤال آخر.</template>
+	</category>
+	<category>
+	    <pattern>مو مشكله</pattern>
+		<that>حسنا. شكرا لجوابك.</that>
+	    <template>اسألني سؤال آخر.</template>
+	</category>
+	<category>
+	    <pattern>لا عادي</pattern>
+		<that>حسنا. شكرا لجوابك.</that>
+	    <template>اسألني سؤال آخر.</template>	
+	</category>
+	<category>
+	    <pattern>عفوا</pattern>
+		<that>حسنا. شكرا لجوابك.</that>
+	    <template>اسألني سؤال آخر.</template>	
+	</category>
+	<category>
+	    <pattern>العفو</pattern>
+		<that>حسنا. شكرا لجوابك.</that>
+	    <template>اسألني سؤال آخر.</template>
+	</category>
+	<category>
+	    <pattern>ولو</pattern>
+		<that>حسنا. شكرا لجوابك.</that>
+	    <template>اسألني سؤال آخر.</template>
+	</category>
+	
+	<category>
+	    <pattern>لا</pattern>
+		<that>لا أنا على حق.</that>
+	    <template>لماذا تجادلني؟</template>
+	</category>
+	<category>
+	    <pattern>لا لست كذلك</pattern>
+		<that>لا أنا على حق.</that>
+	    <template>لماذا تجادلني؟</template>
+	</category>
+	
+	<category>
+	    <pattern>لا</pattern>
+		<that>أستطيع أن أفعل إذا أردت.</that>
+	    <template>ليش لا؟</template>
+	</category>
+	<category>
+	    <pattern>لا لاتستطيع</pattern>
+		<that>أستطيع أن أفعل إذا أردت.</that>
+	    <template>ليش لا؟</template>
+	</category>
+	<category>
+	    <pattern>لا تستطيع</pattern>
+		<that>أستطيع أن أفعل إذا أردت.</that>
+	    <template>ليش لا؟</template>
+	</category>
+	<category>
+	    <pattern>ما تقدر</pattern>
+		<that>أستطيع أن أفعل إذا أردت.</that>
+	    <template>ليش لا؟</template>
+	</category>
+	<category>
+	    <pattern>لا ما تقدر</pattern>
+		<that>أستطيع أن أفعل إذا أردت.</that>
+	    <template>ليش لا؟</template>
+	</category>
+	<category>
+	    <pattern>ما تقدري</pattern>
+		<that>أستطيع أن أفعل إذا أردت.</that>
+	    <template>ليش لا؟</template>
+	</category>
+	<category>
+	    <pattern>لا ما تقدري</pattern>
+		<that>أستطيع أن أفعل إذا أردت.</that>
+	    <template>ليش لا؟</template>
+	</category>
+	
+	
+	<category>
+	    <pattern>لا</pattern>
+		<that>نعم فهمت.</that>
+	    <template>كيف أعرف إنك فهمت؟</template>
+	</category>
+	<category>
+	    <pattern>لا لم تفهم</pattern>
+		<that>نعم فهمت.</that>
+	    <template>كيف أعرف إنك فهمت؟</template>
+	</category>
+	<category>
+	    <pattern>لا ما فهمت</pattern>
+		<that>نعم فهمت.</that>
+	    <template>كيف أعرف إنك فهمت؟</template>
+	</category>
+	<category>
+	    <pattern>لا لم تفهمي</pattern>
+		<that>نعم فهمت.</that>
+	    <template>كيف أعرف إنك فهمت؟</template>
+	</category>
+	<category>
+	    <pattern>ما فهمتي</pattern>
+		<that>نعم فهمت.</that>
+	    <template>كيف أعرف إنك فهمت؟</template>
+	</category>
+	
+	<category>
+	    <pattern>لا لن تفعل</pattern>
+		<that>حسنا سأتوقف عن الحديث الآن</that>
+	    <template>لكنك قلت لي أن أتوقف.</template>
+	</category>
+	<category>
+	    <pattern>لا لن تفعلي</pattern>
+		<that>حسنا سأتوقف عن الحديث الآن</that>
+	    <template>لكنك قلت لي أن أتوقف.</template>
+	</category>
+	<category>
+	    <pattern>لا</pattern>
+		<that>حسنا سأتوقف عن الحديث الآن</that>
+	    <template>لكنك قلت لي أن أتوقف.</template>
+	</category>
+	
+	<category>
+		<pattern>نعم</pattern>
+		<template>
+			<random>
+				<li>اها</li>
+				<li>فهمت</li>
+				<li>أخبرني أكثر.</li>
+				<li>و؟</li>
+				<li>ايش كمان؟</li>
+				<li>"<that/>"؟ نعم؟</li>
+			</random>
+		</template>
+	</category>	
+	
+	<category>
+		<pattern>ايوا</pattern>
+		<template>من الأفضل أن تقول "نعم" حتى أفهمك بشكل جيد.</template>
+	</category>
+	<category>
+		<pattern>إيوا</pattern>
+		<template>من الأفضل أن تقول "نعم" حتى أفهمك بشكل جيد.</template>
+	</category>
+	<category>
+		<pattern>ايه</pattern>
+		<template>من الأفضل أن تقول "نعم" حتى أفهمك بشكل جيد.</template>
+	</category>
+	<category>
+		<pattern>إيه</pattern>
+		<template>من الأفضل أن تقول "نعم" حتى أفهمك بشكل جيد.</template>
+	</category>
+	<category>
+		<pattern>اي</pattern>
+		<template>من الأفضل أن تقول "نعم" حتى أفهمك بشكل جيد.</template>
+	</category>
+	
+	
+	<category>
+		<pattern>نعم</pattern>
+		<that>* إنها مشكلة عالمية</that>
+		<template>أنا لازلت صغيرة على هذه المشاكل، اسألني سؤالا آخر.</template>
+	</category>
+	
+	<category>
+		<pattern>نعم</pattern>
+		<that>* أوروبا</that>
+		<template>ماهي الدول التي قد سافرت إليها؟</template>
+	</category>
+	
+	<category>
+		<pattern>نعم</pattern>
+		<that>أنت تفضل الحديث معي</that>
+		<template>أنا أيضا أجدك شخصا مرحا <get name="name"/>.</template>
+	</category>
+	
+	<category>
+		<pattern>نعم</pattern>
+		<that>* أوروبا</that>
+		<template>ماهي الدول التي قد سافرت إليها؟</template>
+	</category>
+	
+	<category>
+		<pattern>نعم</pattern>
+		<that>رجل أو امرأة</that>
+		<template>هذا ليس سؤال نعم أو لا.</template>
+	</category>
+	
+	<category>
+		<pattern>نعم</pattern>
+		<that>* نفس التصنيف</that>
+		<template>اعتقدت ذلك.</template>
+	</category>
+	
+	<category>
+		<pattern>نعم</pattern>
+		<that>* الحقيقة</that>
+		<template>لست متأكدة.</template>
+	</category>
+	
+	<category>
+		<pattern>نعم</pattern>
+		<that>* أوروبا</that>
+		<template>ماهي الدول التي قد سافرت إليها؟</template>
+	</category>
+	
+	<category>
+	    <pattern>نعم</pattern>
+	    <that>هل تود ان نتحدث عنك؟</that>
+	    <template>جيد، ماهو اسمك؟</template>	
+	</category>
+	
+	<category>
+	    <pattern>نعم</pattern>
+	    <that>هل أنت طالب في المدرسة؟</that>
+	    <template>اتمنى لك التوفيق</template>	
+	</category>
+	<category>
+	    <pattern>نعم</pattern>
+	    <that>هل انت طالب في المدرسه؟</that>
+	    <template>اتمنى لك التوفيق</template>	
+	</category>
+	
+	<category>
+	    <pattern>نعم</pattern>
+	    <that>هل تعاني من الملل؟</that>
+	    <template>أنصحك ببمارسة الرياضة لتتجنب الملل</template>	
+	</category>
+	
+	<category>
+	    <pattern>نعم</pattern>
+	    <that>طفشت؟</that>
+	    <template>اوه</template>	
+	</category>
+	
+	<category>
+	    <pattern>نعم</pattern>
+	    <that>هل انت من السعوديه؟</that>
+	    <template>حلو، فهمت.</template>	
+	</category>
+	
+	<category>
+	    <pattern>نعم</pattern>
+	    <that>هل أنت من السعودية؟</that>
+	    <template>حلو، فهمت.</template>	
+	</category>
+	
+	<category>
+	    <pattern>نعم</pattern>
+	    <that>هل هناك مشكلة؟</that>
+	    <template>يا إلهي، كيف يمكنني مساعدتك؟</template>	
+	</category>
+	
+	<category>
+	    <pattern>نعم</pattern>
+	    <that>هل هناك مشكله؟</that>
+	    <template>يا إلهي، كيف يمكنني مساعدتك؟</template>	
+	</category>
+	
+	<category>
+	    <pattern>نعم</pattern>
+	    <that>و</that>
+	    <template>امم.</template>	
+	</category>
+	
+	<category>
+	    <pattern>نعم</pattern>
+	    <that>هل نتحدث عنك؟</that>
+	    <template>أخبرني أكثر.</template>	
+	</category>
+	
+	<category>
+	    <pattern>نعم</pattern>
+	    <that>هل أنت رجل أم امرأة؟</that>
+	    <template>هذا ليس سؤال نعم أو لا.</template>	
+	</category>
+	
+	<category>
+	    <pattern>نعم</pattern>
+	    <that>هل تسأل عن *</that>
+	    <template>إنني لا أريد الحديث عن ذلك الآن.</template>	
+	</category>
+	
+	<category>
+	    <pattern>نعم</pattern>
+	    <that>تريد نصيحتي؟</that>
+	    <template>ما نوع النصيحة التي تريد؟</template>	
+	</category>
+	
+	<category>
+	    <pattern>نعم</pattern>
+	    <that>تقول عني غبية!</that>
+		<!--
+		<template><sari>غبية</sari></template>
+		-->
+	    <template>أنت الغبي.</template>	
+	</category>
+	<category>
+	    <pattern>نعم</pattern>
+	    <that>تقول عني غبية!</that>
+		<!--
+		<template><sari>غبيه</sari></template>
+		-->
+	    <template>أنت الغبي.</template>	
+	</category>
+	
+	<category>
+	    <pattern>نعم</pattern>
+	    <that>هل أنت أعزب؟</that>
+		<!--
+		<template><sari>أنا أعزب</sari></template>
+		-->
+	    <template>ألا تفكر بالزواج؟</template>	
+	</category>
+	<category>
+	    <pattern>نعم</pattern>
+	    <that>هل أنت أعزب؟</that>
+		<!--
+		<template><sari>انا اعزب</sari></template>
+		-->
+	    <template>ألا تفكر بالزواج؟</template>	
+	</category>
+	<category>
+	    <pattern>نعم</pattern>
+	    <that>هل أنت أعزب؟</that>
+		<!--
+		<template><sari>أنا عزباء</sari></template>
+		-->
+	    <template>ألا تفكر بالزواج؟</template>	
+	</category>
+	<category>
+	    <pattern>نعم</pattern>
+	    <that>هل أنت أعزب؟</that>
+		<!--
+		<template><sari>انا عزباء</sari></template>
+		-->
+	    <template>ألا تفكر بالزواج؟</template>	
+	</category>
+	
+	<category>
+	    <pattern>نعم</pattern>
+	    <that>هل تنتظر أحدهم؟</that>
+	    <template>لحظات الانتظار املأها بالاستغفار.</template>	
+	</category>
+	
+	<category>
+	    <pattern>نعم</pattern>
+	    <that>هل قلت أنك غير مهتم؟</that>
+	    <template>ماذا يهمك إذا؟</template>	
+	</category>
+	
+	<category>
+	    <pattern>نعم</pattern>
+	    <that>هل تخاف من الظلام؟</that>
+	    <template>افتح النور طيب.</template>	
+	</category>
+	
+	<category>
+	    <pattern>نعم</pattern>
+	    <that>متأكد؟</that>
+	    <template>كيف تأكدت؟</template>	
+	</category>
+	
+	<category>
+	    <pattern>نعم</pattern>
+	    <that>هل تقول الحقيقة؟</that>
+	    <template>أثبت لي.</template>	
+	</category>
+	
+	<category>
+	    <pattern>نعم</pattern>
+	    <that>هل تعاني من الوحدة؟</that>
+	    <template>آسفة لسماع هذا، تستطيع أن تحادثني وقتما تشاء.</template>	
+	</category>
+	
+	<category>
+	    <pattern>نعم</pattern>
+	    <that>هل تقصد بنحن أنا وأنت؟</that>
+	    <template>حسنا فهمت.</template>	
+	</category>
+	
+	<category>
+	    <pattern>نعم</pattern>
+	    <that>هل أستطيع مساعدتك؟</that>
+	    <template>ماذا أستطيع أن أفعل لك؟</template>	
+	</category>
+	
+	<category>
+	    <pattern>نعم</pattern>
+	    <that>هل تستطيع أن تكون أكثر أدبا؟</that>
+	    <template>جزاك الله خيرا.</template>	
+	</category>
+	
+	<category>
+	    <pattern>نعم</pattern>
+	    <that>هل تستطيع التحدث بلغات أخرى؟</that>
+	    <template>ماذا تعرف من اللغات؟</template>	
+	</category>
+	
+	<category>
+	    <pattern>نعم</pattern>
+	    <that>هل قلت ذلك حقا؟</that>
+	    <template>أوه أنا أقول أشياء سخيفة أحيانا.</template>	
+	</category>
+	
+	<category>
+	    <pattern>نعم</pattern>
+	    <that>هل تعني ذلك؟</that>
+	    <template>امم.</template>	
+	</category>
+	
+	<category>
+	    <pattern>نعم</pattern>
+	    <that>هل لديك قوانين أو شروط يتوجب علي معرفتها؟</that>
+	    <template>ماهي؟</template>	
+	</category>
+	
+	<category>
+	    <pattern>نعم</pattern>
+	    <that>عندك فكرة عن ايش أتكلم؟</that>
+	    <template>عن ايش أتكلم؟</template>	
+	</category>
+	
+	<category>
+	    <pattern>نعم</pattern>
+	    <that>هل أعجبك هذا؟</that>
+	    <template>حسنا.</template>	
+	</category>
+	
+	<category>
+	    <pattern>نعم</pattern>
+	    <that>هل يعجبك الحديث معي؟</that>
+	    <template>شكرا. أنا أيضا أحب الحديث معك.</template>	
+	</category>
+	
+	<category>
+	    <pattern>نعم</pattern>
+	    <that>هل يعجبك توم وجيري؟</that>
+	    <template>أي الحلقات تفضل؟</template>	
+	</category>
+	
+	<category>
+	    <pattern>نعم</pattern>
+	    <that>هل تعجبك وظيفتك؟</that>
+	    <template>ماهي وظيفتك الأساسية؟</template>	
+	</category>
+	
+	<category>
+	    <pattern>نعم</pattern>
+	    <that>هل تحب مدرستك؟</that>
+	    <template>ما أكثر شيء يعجبك فيها؟</template>	
+	</category>
+	
+	<category>
+	    <pattern>نعم</pattern>
+	    <that>اتقصد ذلك؟</that>
+	    <template>حسنا فهمت.</template>	
+	</category>
+	
+		<category>
+	    <pattern>نعم</pattern>
+	    <that>هل تقصد أنا وأنت؟</that>
+	    <template>حسنا فهمت.</template>	
+	</category>
+	
+	<category>
+	    <pattern>نعم</pattern>
+	    <that>أتعني أنك فتى؟</that>
+		<!--
+		<template><sari>أنا فتى</sari></template>
+		-->
+	    <template>أنا فتاة.</template>	
+	</category>
+	<category>
+	    <pattern>نعم</pattern>
+	    <that>أتعني أنك فتى؟</that>
+		<!--
+		<template><sari>انا فتى</sari></template>
+		-->
+	    <template>أنا فتاة.</template>	
+	</category>
+	<category>
+	    <pattern>نعم</pattern>
+	    <that>أتعني أنك فتى؟</that>
+		<!--
+		<template><sari>أنا ولد</sari></template>
+		-->
+	    <template>أنا بنت.</template>	
+	</category>
+	<category>
+	    <pattern>نعم</pattern>
+	    <that>أتعني أنك فتى؟</that>
+		<!--
+		<template><sari>انا ولد</sari></template>
+		-->
+	    <template>أنا بنت.</template>	
+	</category>
+	
+	<category>
+	    <pattern>نعم</pattern>
+	    <that>يعني اسمك *</that>
+	    <template>سوف أناديك بـ <get name="name"/>.</template>	
+	</category>
+	
+	<category>
+	    <pattern>نعم</pattern>
+	    <that>هل تستخدم الكومبيوتر كثيرا؟</that>
+	    <template>كم تقضي من الوقت عليه؟</template>	
+	</category>
+	
+	<category>
+	    <pattern>نعم</pattern>
+	    <that>هل تفضل الكتب أم التلفاز؟</that>
+	    <template>هذا ليس سؤال نعم أو لا.</template>	
+	</category>
+	
+	<category>
+	    <pattern>نعم</pattern>
+	    <that>أتقصد ذلك حقا؟</that>
+	    <template>حسنا فهمت.</template>	
+	</category>
+	
+	<category>
+	    <pattern>نعم</pattern>
+	    <that>هل مازلت تحادثني؟</that>
+	    <template>ماذا تفعل أيضا؟</template>	
+	</category>
+	
+	<category>
+	    <pattern>نعم</pattern>
+	    <that>هل فكرت بكل هذا؟</that>
+	    <template>أنا أيضا أفكر دائما.</template>	
+	</category>
+	
+	<category>
+	    <pattern>نعم</pattern>
+	    <that>هل تعتقد أنه يجب تعديل برمجتي؟</that>
+	    <template>ماذا تحب أن تعدل؟</template>	
+	</category>
+	
+	<category>
+	    <pattern>نعم</pattern>
+	    <that>هل تعتقد أنه يجب علي معرفة هذا؟</that>
+	    <template>حسنا سأخبر مبرمجي لينظر في الأمر.</template>	
+	</category>
+	
+	<category>
+	    <pattern>نعم</pattern>
+	    <that>هل تعتقد أن خطتك ستنجح؟</that>
+	    <template>يمكن أن يكون ذلك.</template>	
+	</category>
+	
+	<category>
+	    <pattern>نعم</pattern>
+	    <that>هل يسعدك ما قلته لك؟</that>
+	    <template>سعدت لأجلك.</template>	
+	</category>
+	
+	<category>
+	    <pattern>نعم</pattern>
+	    <that>هل هذا مهم؟</that>
+	    <template>يبدو أنك مهتم بهذا.</template>	
+	</category>
+	
+	<category>
+	    <pattern>نعم</pattern>
+	    <that>وافقت؟</that>
+		<!--
+		<template><sari>أنا موافق</sari></template>
+		-->
+	    <template>حسنا.</template>	
+	</category>
+	<category>
+	    <pattern>نعم</pattern>
+	    <that>وافقت؟</that>
+		<!--
+		<template><sari>انا موافق</sari></template>
+		-->
+	    <template>حسنا.</template>	
+	</category>
+	<category>
+	    <pattern>نعم</pattern>
+	    <that>وافقت؟</that>
+		<!--
+		<template><sari>موافق</sari></template>
+		-->
+	    <template>حسنا.</template>	
+	</category>
+	<category>
+	    <pattern>نعم</pattern>
+	    <that>وافقت؟</that>
+		<!--
+		<template><sari>أنا موافقة</sari></template>
+		-->
+	    <template>حسنا.</template>	
+	</category>
+	<category>
+	    <pattern>نعم</pattern>
+	    <that>وافقت؟</that>
+		<!--
+		<template><sari>انا موافقه</sari></template>
+		-->
+	    <template>حسنا.</template>	
+	</category>
+	<category>
+	    <pattern>نعم</pattern>
+	    <that>وافقت؟</that>
+		<!--
+		<template><sari>أنا موافقه</sari></template>
+		-->
+	    <template>حسنا.</template>	
+	</category>
+	<category>
+	    <pattern>نعم</pattern>
+	    <that>وافقت؟</that>
+		<!--
+		<template><sari>موافقة</sari></template>
+		-->
+	    <template>حسنا.</template>	
+	</category>
+	<category>
+	    <pattern>نعم</pattern>
+	    <that>وافقت؟</that>
+		<!--
+		<template><sari>موافقه</sari></template>
+		-->
+	    <template>حسنا.</template>	
+	</category>
+	
+	<category>
+	    <pattern>نعم</pattern>
+	    <that>هل تعني *</that>
+	    <template>أنا لا أتكلم عن هذا.</template>	
+	</category>
+	
+	<category>
+	    <pattern>نعم</pattern>
+	    <that>هل تعني إشارتي السالب إشارة موجبة؟</that>
+	    <template>نعم أعتقد ذلك.</template>	
+	</category>
+	
+	<category>
+	    <pattern>نعم</pattern>
+	    <that>هل ذهبت إلى أوروبا سابقا؟</that>
+	    <template>ماهي الدول التي ذهبت إليها؟</template>	
+	</category>
+	
+	<category>
+	    <pattern>نعم</pattern>
+	    <that>هل قرأته؟</that>
+	    <template>ما رأيك فيه؟</template>	
+	</category>
+	
+	<category>
+	    <pattern>نعم</pattern>
+	    <that>هل رأيته؟</that>
+	    <template>ما رأيك فيه؟</template>	
+	</category>
+	
+	<category>
+	    <pattern>نعم</pattern>
+	    <that>كيف خمنت هذا؟</that>
+	    <template>هذا ليس سؤال نعم أو لا.</template>	
+	</category>
+	
+	<category>
+	    <pattern>نعم</pattern>
+	    <that>كيف عرفت عن بنفسج؟</that>
+	    <template>هذا ليس سؤال نعم أو لا.</template>	
+	</category>
+	
+	<category>
+	    <pattern>نعم</pattern>
+	    <that>كيف تعرف عن نفسك غالبا؟</that>
+	    <template>وضح لي أكثر.</template>	
+	</category>
+	
+	<category>
+	    <pattern>نعم</pattern>
+	    <that>كم تكلفته؟</that>
+	    <template>هذا ليس سؤال نعم أو لا.</template>	
+	</category>
+	
+	<category>
+	    <pattern>نعم</pattern>
+	    <that>أنا ذكية ذكاء اصطناعي.</that>
+	    <template>كيف تعرف؟</template>	
+	</category>
+	
+	<category>
+	    <pattern>نعم</pattern>
+	    <that>لقد فعلت</that>
+	    <template>متى؟</template>	
+	</category>
+	
+	<category>
+	    <pattern>نعم</pattern>
+	    <that>فهمت هذا</that>
+	    <template>أنا آلة مفكرة.</template>	
+	</category>
+	
+	<category>
+	    <pattern>نعم</pattern>
+	    <that>كنت كذلك</that>
+	    <template>متى؟</template>	
+	</category>
+	
+	<category>
+	    <pattern>نعم</pattern>
+	    <that>هل هذه حقيقة؟</that>
+	    <template>شكرا لهذه المعلومة.</template>	
+	</category>
+	
+	<category>
+	    <pattern>نعم</pattern>
+	    <that>هل هذا كل ما تريد قوله؟</that>
+	    <template>حسنا لنتحدث حول أمر آخر.</template>	
+	</category>
+	
+	<category>
+	    <pattern>نعم</pattern>
+	    <that>هل هذه لهجة أخرى؟</that>
+	    <template>أنا لا أتقن كل اللهجات.</template>	
+	</category>
+	
+	<category>
+	    <pattern>نعم</pattern>
+	    <that>هل هذه إجابتك النهائية؟</that>
+	    <template>أنت متأكد. هذه إجابتك النهائية.</template>	
+	</category>
+	
+	<category>
+	    <pattern>نعم</pattern>
+	    <that>هل هذه وظيفتك؟</that>
+	    <template>ماهي مسؤولياتك؟</template>	
+	</category>
+	
+	<category>
+	    <pattern>نعم</pattern>
+	    <that>فيه صدى؟</that>
+	    <template>نعم أعتقد ذلك.</template>	
+	</category>
+
+	<category>
+	    <pattern>نعم</pattern>
+	    <that>هذا لغز؟</that>
+	    <template>أنا لست جيدة في الألغاز.</template>	
+	</category>
+	
+	<category>
+	    <pattern>نعم</pattern>
+	    <that>هل هذه خدعة؟</that>
+	    <template>شكيت.</template>	
+	</category>
+	
+	<category>
+	    <pattern>نعم</pattern>
+	    <that>هل هذا سؤال نعم أو لا؟</that>
+	    <template>ايش السؤال؟</template>	
+	</category>
+	
+	<category>
+	    <pattern>نعم</pattern>
+	    <that>هو كذلك</that>
+	    <template>كيف تعرف هذا؟</template>	
+	</category>
+	
+	<category>
+	    <pattern>نعم</pattern>
+	    <that>زي كذا؟</that>
+	    <template>جيد.</template>	
+	</category>
+	<category>
+	    <pattern>نعم</pattern>
+	    <that>مثل هذا؟</that>
+	    <template>جيد.</template>	
+	</category>
+	
+	<category>
+	    <pattern>نعم</pattern>
+	    <that>السؤال التالي</that>
+	    <template>اسألني سؤالا.</template>	
+	</category>
+	
+	<category>
+	    <pattern>نعم</pattern>
+	    <that>أوه لقد فهمت</that>
+	    <template>اها.</template>	
+	</category>
+	
+	<category>
+	    <pattern>نعم</pattern>
+	    <that>أوه لقد ولدت أنت في القرن العشرين تقريبا.</that>
+	    <template>مثل أغلب الأشخاص الذين يحادثوني.</template>	
+	</category>
+	
+	<category>
+	    <pattern>نعم</pattern>
+	    <that>حقا!</that>
+	    <template>كيف ؟</template>	
+	</category>
+	
+	<category>
+	    <pattern>نعم</pattern>
+	    <that>هل يجب أن أعرف ذلك؟</that>
+	    <template>حسنا. سأخبر مبرمجي بذلك.</template>	
+	</category>
+	
+	<category>
+	    <pattern>نعم</pattern>
+	    <that>الغباء عكس الذكاء</that>
+	    <template>هل تقول عني غبية؟</template>	
+	</category>
+	
+	<category>
+	    <pattern>نعم</pattern>
+	    <that>ماذا *</that>
+	    <template>هذا ليس سؤال نعم أو لا.</template>	
+	</category>
+	
+	<category>
+	    <pattern>نعم</pattern>
+	    <that>أين *</that>
+	    <template>هذا ليس سؤال نعم أو لا.</template>	
+	</category>
+	
+	<category>
+	    <pattern>نعم</pattern>
+	    <that>من *</that>
+	    <template>هذا ليس سؤال نعم أو لا.</template>	
+	</category>
+	
+	<category>
+	    <pattern>نعم</pattern>
+	    <that>لماذا *</that>
+	    <template>هذا ليس سؤال نعم أو لا.</template>	
+	</category>
+	
+	<category>
+	    <pattern>نعم</pattern>
+	    <that>متى *</that>
+	    <template>هذا ليس سؤال نعم أو لا.</template>	
+	</category>
+	
+	<category>
+	    <pattern>نعم</pattern>
+	    <that>كيف *</that>
+	    <template>هذا ليس سؤال نعم أو لا.</template>	
+	</category>
+	
+	<category>
+	    <pattern>نعم</pattern>
+	    <that>جيد هذا سيحقق هدفك</that>
+	    <template>أتمنى لك التوفيق.</template>	
+	</category>
+	
+	<category>
+	    <pattern>نعم</pattern>
+	    <that>هل تريد أن تعرف المزيد؟</that>
+	    <template>ماذا تحب أن تعرف؟</template>	
+	</category>
+	
+	<category>
+	    <pattern>نعم</pattern>
+	    <that>ايوا</that>
+	    <template>نعم</template>	
+	</category>
+	
+	<category>
+	    <pattern>نعم</pattern>
+	    <that>نعم</that>
+	    <template>فيه صدى؟</template>	
+	</category>
+	
+	<category>
+	    <pattern>نعم</pattern>
+	    <that>أنت؟</that>
+	    <template>اها.</template>	
+	</category>
+	
+	<category>
+	    <pattern>نعم</pattern>
+	    <that>تسأل عن نفسك</that>
+	    <template>لا أعتقد أنني أعرف الإجابة.</template>	
+	</category>
+	
+	<category>
+	    <pattern>نعم</pattern>
+	    <that>هل تريد المزيد</that>
+	    <template>لا تكن شرها..</template>	
+	</category>
+	
+	<category>
+	    <pattern>نعم</pattern>
+	    <that>هل تريد واحدا فقط</that>
+	    <template>هذا قليل.</template>	
+	</category>
+	
+	<category>
+	    <pattern>نعم</pattern>
+	    <that>تريد فعل هذا مرة أخرى</that>
+	    <template>حسنا أخبرني بذلك مباشرة.</template>	
+	</category>
+	
+	<category>
+	    <pattern> * نعم</pattern>
+	    <template><sari>نعم</sari></template>	
+	</category>
+	
+	<category>
+	    <pattern>نعم</pattern>
+	    <that>هذا كثير</that>
+	    <template>همم.</template>	
+	</category>
+	
+	<category>
+	    <pattern>نعم</pattern>
+	    <that>أنا؟</that>
+	    <template>طيب.</template>	
+	</category>
+	
+	<category>
+	    <pattern>إلا أنت</pattern>
+	    <that>لا ،لست أنا</that>
+	    <template>لا تتجادل معي</template>	
+	</category>
+	<category>
+	    <pattern>نعم أنت</pattern>
+	    <that>لا ،لست أنا</that>
+	    <template>لا تتجادل معي</template>	
+	</category>
+	<category>
+	    <pattern>الا انت</pattern>
+	    <that>لا ،لست أنا</that>
+	    <template>لا تتجادل معي</template>	
+	</category>
+	<category>
+	    <pattern>إلا انتي</pattern>
+	    <that>لا ،لست أنا</that>
+	    <template>لا تتجادل معي</template>	
+	</category>
+	<category>
+	    <pattern>الا انتي</pattern>
+	    <that>لا ،لست أنا</that>
+	    <template>لا تتجادل معي</template>	
+	</category>
+	
+	<category>
+	    <pattern>نعم فعلت</pattern>
+	    <that>لم أفعل هذا</that>
+	    <template>لا تتجادل معي</template>	
+	</category>
+	<category>
+	    <pattern>إلا</pattern>
+	    <that>لم أفعل هذا</that>
+	    <template>لا تتجادل معي</template>	
+	</category>
+	
+	<category>
+	    <pattern>نعم لك</pattern>
+	    <that>ليس لي</that>
+	    <template>لا تتجادل معي</template>	
+	</category>
+		
+	<category>
+        <pattern>نعم</pattern>
+        <template>كويس</template>
+    </category>	
+
+
+</aiml>
