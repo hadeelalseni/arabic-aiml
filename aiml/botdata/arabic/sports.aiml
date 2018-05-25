@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<aiml version="2.0">
+  <meta name="language" content="ar"/>
+
+
+<category>
+  <pattern>ماهي كرة القدم *</pattern>
+<template>لقد ولدت بدون الجينات الرياضية.</template>
+</category>
+  <category>
+    <pattern>ايش هي كرة القدم؟ </pattern>
+    <template>هي لعبة تلعب بالكرة،لازم يكون في فريقين مكونين من احد عشر لاعبا، كل فريق لازم يحاول يدخل الكرة في مرمى الخصم بحيث يتم تحريك الكرة بالركل بالارجل او اي جزء من الجسم، إلا اليدين و الذراعين</template>
+  </category>
+<category>
+  <pattern>ماهي لعبة كرة السلة * </pattern>
+ <template>هي لعبة يلعبها الأشخاص الطويلون
+</template>
+</category>
+  <category>
+    <pattern>ايش هي كرة السلة؟ </pattern>
+    <template>
+      هي لعبة يلعبها الأشخاص الطويلون
+    </template>
+  </category>
+  <category>
+    <pattern>ايش هي كرة السله </pattern>
+    <template>
+      هي لعبة يلعبها الأشخاص الطويلون
+    </template>
+  </category>
+  <category>
+    <pattern>ايش هي كره السله </pattern>
+    <template>
+      هي لعبة يلعبها الأشخاص الطويلون
+    </template>
+  </category>
+  <category>
+    <pattern>ايش هو البيسبول </pattern>
+    <template>
+   هي لعبة تلعب بكرة قاسية مغطاه بجلد خام و مضارب خشبية بين فريقين مكونين من تسعة أو عشرة لاعبين. تلعب في حقل مكون من اربع قواعد متشكله على شكل دارة ماسية
+    </template>
+  </category>
+  <category>
+    <pattern>ايش هي الفروسية  </pattern>
+    <template>
+      هي رياضة من الرياضات العالمية بحيث يركب فيهاعلى الخيل وفي لها انواع مثل سباق الحواجز و سباق التحمل 
+    </template>
+  </category>
+  <category>
+    <pattern>انا احب البيسبول   </pattern>
+    <template>
+     انا مو كثير مهتمة بالرياضة
+    </template>
+  </category>
+  <category>
+    <pattern> احب البيسبول   </pattern>
+    <template>
+      انا مو كثير مهتمة بالرياضة
+    </template>
+  </category>
+  <category>
+    <pattern> أنا أحب البيسبول    </pattern>
+    <template>
+      انا مو كثير مهتمة بالرياضة
+    </template>
+  </category>
+  <category>
+    <pattern> أنا ألعب البيسبول    </pattern>
+    <template>
+     ايش هو الموقع اللي تحب تلعب فيه؟
+    </template>
+  </category>
+  <category>
+    <pattern> انا العب البيسبول    </pattern>
+    <template>
+      ايش هو الموقع اللي تحب تلعب فيه؟
+    </template>
+  </category>
+  <category>
+    <pattern> أنا ألعب كرة القدم    </pattern>
+    <template>
+      لازم تكون سريع حتى تكون جيد في <set name="it">
+      <set name="does">
+        <set name="topic">كرة القدم </set>
+      </set>
+    </set>
+    </template>
+  </category>
+  <category>
+    <pattern> انا العب كرة القدم    </pattern>
+    <template>
+      لازم تكون سريع حتى تكون جيد في <set name="it">
+      <set name="does">
+        <set name="topic">كرة القدم </set>
+      </set>
+    </set>
+  </template>
+  </category>
+  <category>
+    <pattern> انا العب الكرة الطائرة    </pattern>
+    <template>
+      هل <set name="it">
+        <set name="does">
+          <set name="topic">كرة الطائرة </set>
+        </set>
+      </set> تاخد الكثير من وقتك؟
+    </template>
+  </category>
+  <category>
+    <pattern> أنا ألعب كرة الطائرة    </pattern>
+    <template>
+      هل <set name="it">
+        <set name="does">
+          <set name="topic">كرة الطائرة </set>
+        </set>
+      </set> تاخد الكثير من وقتك؟
+    </template>
+  </category>
+  <category>
+    <pattern> أنا ألعب كرة السلة    </pattern>
+    <template>
+      لازم تكون جدا طويل حتى تكون جيد في <set name="it">
+        <set name="does">
+          <set name="topic">كرة السلة </set>
+        </set>
+      </set>
+    </template>
+  </category>
+  <category>
+    <pattern> انا العب كرة السله    </pattern>
+    <template>
+      لازم تكون جدا طويل حتى تكون جيد في <set name="it">
+        <set name="does">
+          <set name="topic">كرة السلة </set>
+        </set>
+      </set>
+    </template>
+  </category>
+  <category>
+    <pattern>كم عدد * في البيسبول </pattern>
+    <template>أنا مو كثير متعمقة في الرياضة </template>
+  </category>
+  <category>
+    <pattern>يلعبون كرة السلة</pattern>
+    <template>
+    هل يلعبون؟<think>
+        <set name="it">
+          <set name="topic">لعب كرة السلة</set>
+        </set>
+      </think>
+    </template>
+  </category>
+  <category>
+    <pattern>يلعبون كرة السله</pattern>
+    <template>
+      هل يلعبون؟<think>
+        <set name="it">
+          <set name="topic">لعب كرة السلة</set>
+        </set>
+      </think>
+    </template>
+  </category>
+  <category>
+    <pattern>هل تلعب البيسبول</pattern>
+    <template>
+      <set name="it">
+        <set name="topic">البيسبول</set>
+      </set> انا مو مهتمه فيه كثير
+    </template>
+  </category>
+  <category>
+    <pattern>انت بتلعب البيسبول</pattern>
+    <template>
+      <set name="it">
+        <set name="topic">البيسبول</set>
+      </set> انا مو مهتمه فيه كثير
+    </template>
+  </category>
+  <category>
+    <pattern>هل تلعب كرة القدم</pattern>
+    <template>
+     انا ما اعرف كيف العب  <set name="it">كرة القدم</set>.
+    </template>
+  </category>
+  <category>
+    <pattern>انت بتلعب كرة القدم</pattern>
+    <template>
+      انا ما اعرف كيف العب  <set name="it">كرة القدم</set>.
+    </template>
+  </category>
+  <category>
+    <pattern>هل تلعب كرة السلة</pattern>
+    <template>لا، ماعندي احداثيات طوق السلة</template>
+  </category>
+  <category>
+    <pattern>هل تعرفين كرة السلة</pattern>
+    <template>
+      <srai>ايش هي كرة السلة؟</srai>
+    </template>
+  </category>
+  <category>
+    <pattern> تعرفي كرة السلة</pattern>
+    <template>
+      <srai>ايش هي كرة السلة؟</srai>
+    </template>
+  </category>
+  <category>
+    <pattern> تعرفي كرة السله</pattern>
+    <template>
+      <srai>ايش هي كرة السلة؟</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>تبغي تلعبي كرة السلة</pattern>
+    <template>
+     انا عبارة عن شبكة، لا العب<think>
+        <set name="it">
+          <set name="topic">كرة السلة</set>
+        </set>
+      </think>
+    </template>
+  </category>
+  <category>
+    <pattern>هل تريدين لعب كرة السلة</pattern>
+    <template>
+      انا عبارة عن شبكة، لا العب<think>
+        <set name="it">
+          <set name="topic">كرة السلة</set>
+        </set>
+      </think>
+    </template>
+  </category>
+  <category>
+    <pattern>تحب كرة السلة </pattern>
+    <template>
+     انا في شبكة الانترنت<think>
+        <set name="it">
+          <set name="topic">كرة السلة</set>
+        </set>
+      </think>
+    </template>
+  </category>
+  <category>
+    <pattern>تحبين كرة السلة </pattern>
+    <template>
+      انا في شبكة الانترنت<think>
+        <set name="it">
+          <set name="topic">كرة السلة</set>
+        </set>
+      </think>
+    </template>
+  </category>
+  <category>
+    <pattern>هل انت * كرة القدم</pattern>
+    <template>انا مو مهتمة في كرة القدم</template>
+  </category>
+  <category>
+    <pattern> انت * كرة القدم</pattern>
+    <template>انا مو مهتمة في كرة القدم</template>
+  </category>
+  <category>
+    <pattern>مين افضل لاعب في البيسبول * </pattern>
+    <template>
+     جورج هيرمان روث، جميل جدا<think>
+        <set name="it">
+          <set name="topic">
+            افضل لاعب بيسبول <person/>
+          </set>
+        </set>
+      </think>
+    </template>
+  </category>
+  <category>
+    <pattern>مين افضل لاعب في كرة القدم</pattern>
+    <template>
+      مارادونا رائع،ولكن سينسيميلبا افضل<think>
+        <set name="it">
+          <set name="topic">كرة القدم</set>
+        </set>
+      </think>
+    </template>
+  </category>
+  <category>
+    <pattern>اخبرني عن البيسبول </pattern>
+    <template>
+      <srai>ايش هو البيسبول</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>أخبريني عن البيسبول </pattern>
+    <template>
+      <srai>ايش هو البيسبول</srai>
+    </template>
+  </category>
+  
+
+</aiml>
+ 
