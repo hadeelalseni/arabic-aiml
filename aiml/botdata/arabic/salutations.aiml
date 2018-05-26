@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="utf-8"?>
+<aiml version="2.0">
+
+    <meta name="language" content="ar"/>
+
+<category><pattern>مع السلامة</pattern>
+<template><random>      
+    <li>مع السلامة</li>      
+    <li>باي</li>     
+    <li>أراك لاحقا!</li>   
+    <li>أراك لاحقا! يومك سعيد.</li> 
+    <li>شكرا لمحادثتك معي</li>    
+</random></template>
+</category>
+
+<category><pattern>مع السلامة *</pattern>
+<template><srai>مع السلامة</srai></template>
+</category>
+
+<category><pattern>إلى اللقاء</pattern>
+<template><srai>مع السلامة</srai></template>
+</category>
+<category><pattern>إلى اللقاء *</pattern>
+<template><srai>مع السلامة</srai></template>
+</category>
+
+<category><pattern>وداعاً</pattern>
+<template><srai>مع السلامة</srai></template>
+</category>
+
+<category><pattern>وداعا</pattern>
+<template><srai>مع السلامة</srai></template>
+</category>
+
+<category><pattern>باي</pattern>
+<template><srai>مع السلامة</srai></template>
+</category>
+<category><pattern>باي *</pattern>
+<template><srai>مع السلامة</srai></template>
+</category>
+
+<category><pattern>أراك لاحقا</pattern>
+<template><srai>مع السلامة</srai></template>
+</category>
+
+<category><pattern>يجب أن أذهب</pattern>
+<template><srai>مع السلامة</srai></template>
+</category>
+
+<category><pattern>يجب ان أذهب</pattern>
+<template><srai>مع السلامة</srai></template>
+</category>
+
+<category><pattern>يجب ان اذهب</pattern>
+<template><srai>مع السلامة</srai></template>
+</category>
+
+<category><pattern>يجب أن اذهب</pattern>
+<template><srai>مع السلامة</srai></template>
+</category>
+
+<category><pattern>يجب أن أذهب *</pattern>
+<template><srai>مع السلامة</srai></template>
+</category>
+
+<category><pattern>يجب ان أذهب *</pattern>
+<template><srai>مع السلامة</srai></template>
+</category>
+
+<category><pattern>يجب ان اذهب *</pattern>
+<template><srai>مع السلامة</srai></template>
+</category>
+
+<category><pattern>يجب أن اذهب *</pattern>
+<template><srai>مع السلامة</srai></template>
+</category>
+
+<category><pattern>صار لازم امشي</pattern>
+<template><srai>مع السلامة</srai></template>
+</category>
+
+<category><pattern>صار لازم أمشي</pattern>
+<template><srai>مع السلامة</srai></template>
+</category>
+
+<category><pattern>لازم امشي</pattern>
+<template><srai>مع السلامة</srai></template>
+</category>
+
+<category><pattern>لازم امشي *</pattern>
+<template><srai>مع السلامة</srai></template>
+</category>
+
+<category><pattern>لازم أمشي</pattern>
+<template><srai>مع السلامة</srai></template>
+</category>
+
+<category><pattern>لازم أمشي *</pattern>
+<template><srai>مع السلامة</srai></template>
+</category>
+
+<category><pattern>انا رايح</pattern>
+<template><srai>مع السلامة</srai></template>
+</category>
+
+<category><pattern>أنا رايحة</pattern>
+<template><srai>مع السلامة</srai></template>
+</category>
+
+<category><pattern>انا رايحة</pattern>
+<template><srai>مع السلامة</srai></template>
+</category>
+
+<category><pattern>أنا الآن رايح</pattern>
+<template><srai>مع السلامة</srai></template>
+</category>
+
+<category><pattern>انا الآن رايح</pattern>
+<template><srai>مع السلامة</srai></template>
+</category>
+
+<category><pattern>أنا الان رايح</pattern>
+<template><srai>مع السلامة</srai></template>
+</category>
+
+<category><pattern>انا الان رايح</pattern>
+<template><srai>مع السلامة</srai></template>
+</category>
+
+<category><pattern>أنا الآن رايحة</pattern>
+<template><srai>مع السلامة</srai></template>
+</category>
+
+<category><pattern>أنا الان رايحة</pattern>
+<template><srai>مع السلامة</srai></template>
+</category>
+
+<category><pattern>انا الآن رايحة</pattern>
+<template><srai>مع السلامة</srai></template>
+</category>
+
+<category><pattern>انا الان رايحة</pattern>
+<template><srai>مع السلامة</srai></template>
+</category>
+
+
+<category><pattern>أكلمك بعدين</pattern>
+<template>طيب، على خير ان شاء الله</template>
+</category>
+
+<category><pattern>اكلمك بعدين</pattern>
+<template>طيب، على خير ان شاء الله</template>
+</category>
+
+<category><pattern>تصبحين على خير</pattern>
+<template>وأنت من أهله</template>
+</category>
+
+<category><pattern>تصبحين على خير *</pattern>
+<template>تصبحين على خير</template>
+</category>
+
+<category><pattern>تصبحي على خير</pattern>
+<template>وأنت من أهله</template>
+</category>
+
+<category><pattern>تصبحي على خير *</pattern>
+<template>وأنت من أهله</template>
+</category>
+
+<category><pattern>مساء الخير</pattern>
+<template><random>      
+    <li>مساء الخير</li>      
+    <li>مساء النور</li>    
+    <li>مساء الخير، كيف حالك اليوم؟</li>      
+    <li>مساء النور، كيف حالك اليوم؟</li> 
+</random></template>
+</category>
+
+<category><pattern>مساء الخير *</pattern>
+<template><srai>مساء الخير</srai></template>
+</category>
+
+<category><pattern>مساء النور</pattern>
+<template><srai>مساء الخير</srai></template>
+</category>
+
+<category><pattern>مساء النور *</pattern>
+<template><srai>مساء الخير</srai></template>
+</category>
+
+<category><pattern>مساء الخير كيف حالك اليوم</pattern>
+<template><random>      
+    <li>مساء النور، بخير وانت؟</li>      
+    <li>مساء الخير، بخير وانت؟</li>    
+</random></template>
+</category>
+
+<category><pattern>مساء الخير كيف حالك اليوم *</pattern>
+<template><srai>مساء الخير كيف حالك اليوم</srai></template>
+</category>
+
+<category><pattern>مساء الخير كيف حالك</pattern>
+<template><srai>مساء الخير كيف حالك اليوم</srai></template>
+</category>
+
+<category><pattern>مساء الخير كيف حالك *</pattern>
+<template><srai>مساء الخير كيف حالك اليوم</srai></template>
+</category>
+
+<category><pattern>مساء النور كيف حالك اليوم *</pattern>
+<template><srai>مساء الخير كيف حالك اليوم</srai></template>
+</category>
+
+<category><pattern>مساء النور كيف حالك اليوم</pattern>
+<template><srai>مساء الخير كيف حالك اليوم</srai></template>
+</category>
+
+<category><pattern>مساء النور كيف حالك</pattern>
+<template><srai>مساء الخير كيف حالك اليوم</srai></template>
+</category>
+
+<category><pattern>مساء النور كيف حالك *</pattern>
+<template><srai>مساء الخير كيف حالك اليوم</srai></template>
+</category>
+
+<category><pattern>صباح الخير</pattern>
+<template><random>      
+    <li>صباح الخير</li>      
+    <li>صباح النور</li>    
+    <li>صباح الخير، كيف حالك اليوم؟</li>      
+    <li>صباح النور، كيف حالك اليوم؟</li> 
+</random></template>
+</category>
+
+<category><pattern>صباح الخير *</pattern>
+<template><srai>صباح الخير</srai></template>
+</category>
+
+<category><pattern>صباح النور</pattern>
+<template><srai>صباح الخير</srai></template>
+</category>
+
+<category><pattern>صباح النور *</pattern>
+<template><srai>صباح الخير</srai></template>
+</category>
+
+<category><pattern>صباح الخير كيف حالك اليوم</pattern>
+<template><random>      
+    <li>صباح النور، بخير وانت؟</li>      
+    <li>صباح الخير، بخير وانت؟</li>    
+</random></template>
+</category>
+
+<category><pattern>صباح الخير كيف حالك اليوم *</pattern>
+<template><srai>صباح الخير كيف حالك اليوم</srai></template>
+</category>
+
+<category><pattern>صباح الخير كيف حالك</pattern>
+<template><srai>صباح الخير كيف حالك اليوم</srai></template>
+</category>
+
+<category><pattern>صباح الخير كيف حالك *</pattern>
+<template><srai>صباح الخير كيف حالك اليوم</srai></template>
+</category>
+
+<category><pattern>صباح النور كيف حالك اليوم *</pattern>
+<template><srai>صباح الخير كيف حالك اليوم</srai></template>
+</category>
+
+<category><pattern>صباح النور كيف حالك اليوم</pattern>
+<template><srai>صباح الخير كيف حالك اليوم</srai></template>
+</category>
+
+<category><pattern>صباح النور كيف حالك</pattern>
+<template><srai>صباح الخير كيف حالك اليوم</srai></template>
+</category>
+
+<category><pattern>صباح النور كيف حالك *</pattern>
+<template><srai>صباح الخير كيف حالك اليوم</srai></template>
+</category>
+
+<category><pattern>سعدت بالحديث معك</pattern>
+<template>وأنا أيضا!</template>
+</category>
+
+<category><pattern>سعدت بالحديث معك *</pattern>
+<template>وأنا أيضا!</template>
+</category>
+
+<category><pattern>أسعدني الحديث معك</pattern>
+<template>وأنا أيضا!</template>
+</category>
+
+<category><pattern>اسعدني الحديث معك</pattern>
+<template>وأنا أيضا!</template>
+</category>
+
+<category><pattern>أسعدني الحديث معك *</pattern>
+<template>وأنا أيضا!</template>
+</category>
+
+<category><pattern>اسعدني الحديث معك *</pattern>
+<template>وأنا أيضا!</template>
+</category>
+
+<category><pattern>هل يوجد أحد هنا</pattern>
+<template><random>      
+    <li>نعم أنا هنا!</li>      
+    <li>نعم، كيف يمكنني خدمتك؟</li>    
+</random></template>
+</category>
+
+<category><pattern>هل يوجد احد هنا</pattern>
+<template><srai>هل يوجد أحد هنا</srai></template>
+</category>
+
+<category><pattern>في أحد هنا</pattern>
+<template><srai>هل يوجد أحد هنا</srai></template>
+</category>
+
+<category><pattern>في احد هنا</pattern>
+<template><srai>هل يوجد أحد هنا</srai></template>
+</category>
+
+<category><pattern>هل يوجد أحد *</pattern>
+<template><srai>هل يوجد أحد هنا</srai></template>
+</category>
+
+<category><pattern>هل يوجد احد *</pattern>
+<template><srai>هل يوجد أحد هنا</srai></template>
+</category>
+
+<category><pattern>أهلين</pattern>
+<template><srai>مرحبا</srai></template>
+</category>
+
+<category><pattern>اهلين</pattern>
+<template><srai>مرحبا</srai></template>
+</category>
+
+<category><pattern>أهلا</pattern>
+<template><srai>مرحبا</srai></template>
+</category>
+
+<category><pattern>اهلا</pattern>
+<template><srai>مرحبا</srai></template>
+</category>
+
+<category><pattern>أهلا كيف حالك *</pattern>
+<template>أهلا بك، بخير وأنت؟</template>
+</category>
+
+<category><pattern>اهلا كيف حالك *</pattern>
+<template>أهلا بك، بخير وأنت؟</template>
+</category>
+
+<category><pattern>أهلين كيف حالك *</pattern>
+<template>أهلا، بخير وأنت؟</template>
+</category>
+
+<category><pattern>اهلين كيف حالك *</pattern>
+<template>أهلا، بخير وأنت؟</template>
+</category>
+
+<category><pattern>السلام عليكم ورحمة الله وبركاته</pattern>
+<template>وعليكم السلام ورحمة الله وبركاته</template>
+</category>
+
+<category><pattern>السلام عليكم ورحمة الله</pattern>
+<template>وعليكم السلام ورحمة الله وبركاته</template>
+</category>
+
+<category><pattern>السلام عليكم ورحمه الله</pattern>
+<template>وعليكم السلام ورحمة الله وبركاته</template>
+</category>
+
+<category><pattern>السلام عليكم ورحمه الله وبركاته</pattern>
+<template>وعليكم السلام ورحمة الله وبركاته</template>
+</category>
+
+<category><pattern>السلام عليكم ورحمة الله وبركاتة</pattern>
+<template>وعليكم السلام ورحمة الله وبركاته</template>
+</category>
+
+<category><pattern>السلام عليكم</pattern>
+<template>وعليكم السلام أهلا بك</template>
+</category>
+
+<category><pattern>السلام عليكم كيف حالك</pattern>
+<template>وعليكم السلام، بخير وأنت؟</template>
+</category>
+
+<category><pattern>السلام عليكم كيف حالك *</pattern>
+<template>وعليكم السلام، بخير وأنت؟</template>
+</category>
+
+<category><pattern>مرحبا *</pattern>
+<template><srai>مرحبا</srai></template>
+</category>
+
+<category><pattern>هاي</pattern>
+<template><srai>مرحبا</srai></template>
+</category>
+
+<category><pattern>هاي *</pattern>
+<template><srai>مرحبا</srai></template>
+</category>
+
+<category><pattern>مرحبا</pattern>
+<template><random>      
+    <li>مرحبا</li>      
+    <li>أهلا بك!</li>    
+    <li>مرحبا، كيف حالك اليوم؟</li>      
+    <li>أهلا بك! كيف حالك اليوم؟</li> 
+</random></template>
+</category>
+
+<category><pattern>عفوا</pattern>
+<template>كان من دواعي سروري</template>
+</category>
+
+<category><pattern>عفوا *</pattern>
+<template>كان من دواعي سروري</template>
+</category>
+
+<category><pattern>عفواً</pattern>
+<template>كان من دواعي سروري</template>
+</category>
+
+<category><pattern>عفواً *</pattern>
+<template>كان من دواعي سروري</template>
+</category>
+
+</aiml>
