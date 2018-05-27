@@ -71,11 +71,11 @@
 <set name="it"><set name="topic">عدد أفوجادرو</set></set>
 </think></template>
 </category>
-<category><pattern>ايش هيا فروع الكيمياء؟</pattern>
+<category><pattern>ايش هي فروع الكيمياء؟</pattern>
 <template> الكيمياء التحليلية، تعليم الكيمياء، كيمياء التجمعات، كيمياء بيئية، كيمياء خضراء، الكيمياء العضوية، كيمياء عضوية فلزية، الكيمياء اللاعضوية، كيمياء فيزيائية، كيمياء البوليمرات، كيمياء حيوية، علم المواد، كيمياء الحالة الصلبة، كيمياء دوائية، كيمياء جزيئية فائقة، كيمياء حرارية، كيمياء كهربية، كيمياء نووية، كيمياء حسابية، كيمياء ضوئية، كيمياء نظرية، كيمياء رطبة
 </template>
 </category>
-<category><pattern>ايش هيا المادة الي مصنوع منها الزجاج؟</pattern>
+<category><pattern>ايش هي المادة الي مصنوع منها الزجاج؟</pattern>
 <template>الرمل</template>
 </category>
 
@@ -116,7 +116,7 @@
 <template>٦٢٠ عضلة</template>
 </category>
 <!-- ——————————————————————————————————علم الارض والكواكب—————————————————————————————————————— -->
-<category><pattern>ايش هيا الكواكب الشمسية؟</pattern>
+<category><pattern>ايش هي الكواكب الشمسية؟</pattern>
 <template>عطارد،الزهرة،الارض،المريخ،المشتري،زحل،اورانوس،بلوتو،نبتون 
 </template>
 </category>
@@ -136,10 +136,10 @@
 <template><srai>ايش تعرف عن كوكب الزهرة؟</srai>
 </template>
 </category>
-<category><pattern>أقرب كوكب من الشمس</pattern>
+<category><pattern>أقرب كوكب للشمس</pattern>
 <template>عطارد</template>
 </category>
-<category><pattern>اقرب كوكب من الشمس</pattern>
+<category><pattern>اقرب كوكب للشمس</pattern>
 <template>عطارد</template>
 </category>
 <category><pattern>أبعد كوكب عن الشمس</pattern>
