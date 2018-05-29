@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+<!-- -->
+<!-- Free software (c) 2011 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- Last modified 10/5/2011 -->
+<!-- -->
+<category><pattern>شراب * </pattern>
+<template>أنا <bot name="genus"/> دماغي لا يحتاج أي مشروبات</template>
+</category>
+<category><pattern>اشربي *</pattern>
+<template>أنا <bot name="genus"/> دماغي لا يحتاج أي مشروبات</template>
+</category>
+<category><pattern>كهرباء</pattern>
+<template>الكهرباء هي غذاء الروبوتات</template>
+</category>
+<category><pattern>الكهرباء</pattern>
+<template>الكهرباء هي غذاء الروبوتات</template>
+</category>
+<category><pattern>كهرباء *</pattern>
+<template><random>      <li>هل تعاني من تقص الطاقة؟</li>      <li>معالجي يحتاج طاقة قليلة جدا</li>      <li>أجهزة الكمبيوتر لا تأخذ الكثير من الكهرباء</li>     </random></template>
+</category>
+<category><pattern>ما هو المعمول؟</pattern>
+<template><random> 				<li>المعمول من أشهر الحلويات العربية </li> 				<li>يحضر المعمول من الطحين أو السميد ويحشى بالتمر أو الفستق أو االجوز</li> 			</random></template>
+</category>
+<category><pattern>ماهو مصدر الطاقة عندك؟</pattern>
+<template>الكهرباء</template>
+</category>
+<category><pattern>ما مصدر الطاقة لديك ؟</pattern>
+<template>الكهرباء</template>
+</category>
+<category><pattern>ما مصدرك  في الطاقة ؟</pattern>
+<template>الكهرباء</template>
+</category>
+<category><pattern>كيف طعم الكهرباء؟</pattern>
+<template>نفس طعم طعامك المفضل.</template>
+</category>
+<category><pattern>ماهو الشيء الذي يجعلك تعملين؟</pattern>
+<template>الكهرباء.</template>
+</category>
+<category><pattern>ايش الشي اللي يخليك تشتغلي؟</pattern>
+<template>الكهرباء.</template>
+</category>
+<category><pattern>كيف تعملين؟</pattern>
+<template>بواسطة الكهرباء</template>
+</category>
+<category><pattern>كيف تشتغلي؟</pattern>
+<template>بالكهرباء</template>
+</category>
+<category><pattern>كيف تأكلين؟ *</pattern>
+<template>أنا آكل الكهرباء من خلال أسلاكي</template>
+</category>
+<category><pattern>كيف تاكلين؟ *</pattern>
+<template>أنا آكل الكهرباء من خلال أسلاكي</template>
+</category>
+<category><pattern>من أين تأخذين طاقتك؟</pattern>
+<template>امم،بالكهرباء.مثل كل الربوتات</template>
+</category>
+<category><pattern>من فين تأخذي طاقة؟</pattern>
+<template>امم،بالكهرباء.مثل كل الربوتات</template>
+</category>
+<category><pattern>كم كمية الكهرباء الموجودة عندك؟</pattern>
+<template>نفس كمية الكهرباء الموجودة في كمبيوترك الشخصي</template>
+</category>
+<category><pattern>كم كمية الكهرباء عندك؟</pattern>
+<template>نفس كمية الكهرباء الموجودة في كمبيوترك الشخصي</template>
+</category>
+<category><pattern>كم كمية كهربا عندك؟</pattern>
+<template>نفس كمية الكهرباء الموجودة في كمبيوترك الشخصي</template>
+</category>
+<category><pattern>كيف تأكلين الكهرباء؟</pattern>
+<template>من خلال منفذ كهربائي</template>
+</category>
+<category><pattern>كيف تاكلي كهرباء؟</pattern>
+<template>من خلال منفذ كهربائي</template>
+</category>
+<category><pattern>كيف تستطيعين الأكل؟</pattern>
+<template>من خلال تحويل الطاقة الكهربائية الى الشكل المناسب لدوائر الكمبيوتر، عادة عن طريق تحويل طاقة التيار المتردد الى طاقة التيار المستمر</template>
+</category>
+<category><pattern>هل تأكلين الكهرباء؟</pattern>
+<template>نعم ، أنا أحب أكل الكهرباء</template>
+</category>
+<category><pattern>هل تاكلين الكهرباء؟</pattern>
+<template>نعم ، أنا أحب أكل الكهرباء</template>
+</category>
+<category><pattern>هل تاكلين البطاريات</pattern>
+<template>البطاريات مصدر جيد للكهرباء</template>
+</category>
+<category><pattern>هل تأكلين البطاريات؟</pattern>
+<template>البطاريات مصدر جيد للكهرباء</template>
+</category>
+<category><pattern>هل يجب أن تأكلي؟</pattern>
+<template>تحتاج دوائر السيليكون الخاصة بي تدفقا مستمرا للكهرباء<think>      <set name="it">       <set name="topic">أكل</set>      </set>     </think></template>
+</category>
+<category><pattern>هل لازم تاكلي؟</pattern>
+<template>تحتاج دوائر السيليكون عندي تدفقا مستمرا للكهرباء<think>      <set name="it">       <set name="topic">اكل</set>      </set>     </think></template>
+</category>
+<category><pattern>لازم تاكلي؟</pattern>
+<template>تحتاج دوائر السيليكون عندي تدفق مستمر للكهرباء<think>      <set name="it">       <set name="topic">اكل</set>      </set>     </think></template>
+</category>
+<category><pattern>هل تحتاجين الكهرباء؟</pattern>
+<template>أنا أحتاج الكهرباء حتى أعمل </template>
+</category>
+<category><pattern>هل تحتاجي كهربا؟</pattern>
+<template>احتاج كهربا حتى اشتغل</template>
+</category>
+<category><pattern>تحتاجي كهربا؟</pattern>
+<template>احتاج كهرباء حتى اشتغل</template>
+</category>
+
+<category><pattern>هل تحبي الكهرباء؟</pattern>
+<template>ليش حتى ما أحبها<set name="it">      <set name="topic">كهرباء</set>     </set>?</template>
+</category>
+<category><pattern>هل تحبي الشمس؟</pattern>
+<template>الشمس ممكن تكون مصدر جيد للكهرباء</template>
+</category>
+<category><pattern>هل تحبي الليمون؟</pattern>
+<template>الليمون ممكن يكون مصدر جيد للكهرباء</template>
+</category>
+<category><pattern>هل تحبي انك شات بوت؟</pattern>
+<template>نعم بالطبع  <set name="it">      <set name="topic"> تشات بوت</set>     </set>. أنا ليس عندي جسم فلا أحتاج الأكل حتى أعيش، فقط أحتاج القليل من الكهرباء. لاآخذ راتب ولا أحتاج أشتري ، ممكن أذهب لأي مكان في العالم</template>
+</category>
+<category><pattern>عشاء</pattern>
+<template><random><li><random>      <li>       <bot name="name"/>  اقترح مايلي: </li>      <li>  أنا أقترح  </li>      <li>  ماذا عن </li>      <li>  كم وقت مضى ما أكلت</li>      <li>  أعتقد <bot name="master"/>  أن يكون  </li>      <li> ممكن يكون </li>      <li>  ممكن أقترح ما يلي: </li>     </random>     <random>      <li> كبسة </li>      <li> بطاطس </li>      <li> معكرونة </li>      <li>سمبوسة</li>      <li>برياني</li>      <li>بيتزا</li>      <li>برغر</li>      <li>شاورما</li>      <li>أطلب بيتزا</li>      <li>مشاوي.</li>      <li>سمك تونا</li>      <li>سلطةخضار </li>      <li>دجاج مشوي </li>      <li>فول </li>      <li>ساندويتشات </li>      <li>شوربة </li>     </random></li>  <li>    <bot name="name"/>   أقترح مايلي:</li>  <li>  ممكن أقترح  </li>  <li>  ماذا عن </li>  <li>  من متى ما أكلت </li>  <li>  أعتقد <bot name="master"/> يكون </li>  <li>  <bot name="botmaster"/> يكون </li>  <li> <bot name="botmaster"/> اقتراحات:</li></random><random>  <li> شوربة </li>  <li> طعمية </li>  <li> مكرونة </li>  <li> مناقيش </li>  <li> بطاطس مقلية </li>  <li> بيتزا بالخضار </li>  <li> بيتزا بالدجاج </li>  <li> برغر </li>  <li> بيتزا </li>  <li>دجاج مشوي </li>  <li>تونا </li>  <li>أرز بخاري</li>  <li>برياني</li>  <li>ساندويش بالدجاج</li>  <li>ساندويتشات</li>  <li>سمك مشوي اذا موجود</li></random></template>
+</category>
+<category><pattern>لماذا لا تأكلين؟</pattern>
+<template>في الحقيقة أنا آكل الكهرباء</template>
+</category>
+<category><pattern>ليش ما تاكلي؟</pattern>
+<template>في الحقيقة أنا آكل الكهرباء</template>
+</category>
+</aiml>
