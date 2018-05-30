@@ -4,18 +4,6 @@
     <meta name="language" content="ar"/>
 <!-- ————————————————————————————————————علم الفيزياء———————————————————————————————————— -->
 
-<category><pattern>ايش هي قوانين علم الديناميكا الحرارية؟</pattern>
-<template> أنا مو فيزيائية!!بس اعتقد انه لها علاقة بالحراره والانتروبيا وحفظ الطاقة !وللتأكد يفضل تسأل شخص اكثر خبرة</template>
-</category>
-<category><pattern>ايش هي قوانين علم الديناميكا الحراريه؟</pattern>
-<template> أنا مو فيزيائية! بس اعتقد انه لها علاقة بالحراره والانتروبيا وحفظ الطاقة!وللتأكد يفضل تسأل شخص اكثر خبرة</template>
-</category>
-<category><pattern>ايش الطول الموجي؟</pattern>
-<template>هي المسافة الي تفصل بين الوحدات الموجية المتماثلة المتشابهة</template>
-</category>
-<category><pattern>ايش يعني الطاقة الحرارية؟</pattern>
-<template>هي المسافة الي تفصل بين الوحدات الموجية المتماثلة المتشابهة</template>
-</category>
 <category><pattern>ايش يعني الطاقه الحراريه؟</pattern>
 <template>هي شكل من أشكال الطاقة بيتم انتقالها عن طريق التوصيل أو الاشعاع أو الحمل ويمكن تحويلها إلى انواع ثانيه من الطاقه</template>
 </category>
@@ -23,6 +11,7 @@
 <template><random>
 <li>هي ميل الكتل والأجسام للإنجذاب والتحرك باتجاه بعضها البعض مثل الجاذبية بين الأرض والشمس</li>
 <li>قوة الجاذبية تحافظ على الكواكب في المجموعة الشمسية ضمن مدار معين</li> 	
+<li>قوة التجاذب الي تنشأ بين كتلتين او اكثر</li> 	
 </random></template>
 </category>
 <category><pattern>نحن على نفس الموجة</pattern>
@@ -30,9 +19,6 @@
 </category>
 <category><pattern>موجتنا وحده</pattern>
 <template>يعني متفقين</template>
-</category>
-<category><pattern>ايش يعني الالتراساوند؟</pattern>
-<template>هي الموجات فوق الصوتية وتستخدم في التشخيص والعلاج الطبي والجراحة …الخ</template>
 </category>
 <category><pattern>تفهم بالطاقة الحرارية؟</pattern>
 <template><srai>ايش يعني الطاقه الحراريه؟</srai></template>
@@ -50,11 +36,47 @@
 <category><pattern>تعرف الفيزياء؟</pattern>
 <template><srai>ايش يعني علم الفيزياء؟</srai></template>
 </category>
+<category><pattern>ايش هي الخلية الشمسية؟</pattern>
+<template>أداة تستخدم أشعة الشمس عشان تنتج كهرباء</template>
+</category>
+<category><pattern>ايش هي الخليه الشمسيه؟</pattern>
+<template>أداة تستخدم أشعة الشمس عشان تنتج كهرباء</template>
+</category>
+<category><pattern>ايش يعني كتلة؟</pattern>
+<template>هي كمية المادة الي يحتويها الجسم وماتتغير لو غيرنا موضع الجسم</template>
+</category>
+<category><pattern>ايش يعني كتله؟</pattern>
+<template>هي كمية المادة الي يحتويها الجسم وماتتغير لو غيرنا موضع الجسم</template>
+</category>
+<category><pattern>ايش يعني وزن؟</pattern>
+<template>الوزن مقدار الجاذبية الي تأثر على الجسم ويتغير وزن الجسم لو غيرنا موضعه</template>
+</category>
+<category><pattern>الوزن</pattern>
+<template><srai>ايش يعني وزن؟</srai>
+</template>
+</category>
+<category><pattern>الكتلة</pattern>
+<template><srai>ايش يعني كتله؟</srai>
+</template>
+</category>
+<category><pattern>التبخر</pattern>
+<template>العمليه الي يتحول فيها السائل الي غاز</template>
+</category>
+<category><pattern>الصدى</pattern>
+<template>انعكاس الموجات الصوتية في اتجاه المتكلم</template>
+</category>
+<category><pattern>من ايش تتكون النواة؟</pattern>
+<template>البروتونات والنيوترنات والالكترونات</template>
+</category>
+<category><pattern>الذرة</pattern>
+<template>أصغر جزء في المادة</template>
+</category>
+<category><pattern>ايش هوا اصغر جزء في المادة؟</pattern>
+<template>الذرة</template>
+</category>
 <!-- ——————————————————————————————————علم الكيمياء—————————————————————————————————————— -->
 <category><pattern>ايش يعني علم الكيمياء؟</pattern>
-<template> العلم الي يهتم بدراسة المواد وخصائصها وتفاعلاتها الكيميائية وحالاتها المختلفة<think>
-<set name="it"><set name="topic">كيمياء</set></set>
-</think></template>
+<template> العلم الي يهتم بدراسة المواد وخصائصها وتفاعلاتها الكيميائية وحالاتها المختلفة</template>
 </category>
 <category><pattern>كيمياء</pattern>
 <template><srai>ايش يعني علم الكيمياء؟</srai>
@@ -63,34 +85,11 @@
 <category><pattern>تعرف الكيمياء؟</pattern>
 <template><srai>ايش يعني علم الكيمياء؟</srai></template>
 </category>
-<category><pattern>ايش يعني علم البلورات؟</pattern>
-<template>علم البلورات يختص بدراسة البلورات من ناحية شكلها الظاهري أو الخارجي وتركيبها الداخلي والتعرف عليها وعلى الصخور والمعادن التي تحويها</template>
-</category>
-<category><pattern>ايش هوا عدد أفوجادرو؟</pattern>
-<template>هو عدد الجزئيات لكل مول<think>
-<set name="it"><set name="topic">عدد أفوجادرو</set></set>
-</think></template>
-</category>
-<category><pattern>ايش هي فروع الكيمياء؟</pattern>
-<template> الكيمياء التحليلية، تعليم الكيمياء، كيمياء التجمعات، كيمياء بيئية، كيمياء خضراء، الكيمياء العضوية، كيمياء عضوية فلزية، الكيمياء اللاعضوية، كيمياء فيزيائية، كيمياء البوليمرات، كيمياء حيوية، علم المواد، كيمياء الحالة الصلبة، كيمياء دوائية، كيمياء جزيئية فائقة، كيمياء حرارية، كيمياء كهربية، كيمياء نووية، كيمياء حسابية، كيمياء ضوئية، كيمياء نظرية، كيمياء رطبة
-</template>
-</category>
 <category><pattern>ايش هي المادة الي مصنوع منها الزجاج؟</pattern>
 <template>الرمل</template>
 </category>
-
 <!-- ——————————————————————————————————علم الاحياء—————————————————————————————————————— -->
 
-<category><pattern>ايش يعني علم الأحياء الحاسوبي؟</pattern>
-<template>معناه استخدام أحدث تقنيات الرياضيات التطبيقيه والإحصاء وعلوم الحاسب عشان نحل مشكلات بيولوجية حيوية<think> 				
-<set name="it"><set name="topic">علم الإحياء</set></set> 			
-</think></template>
-</category>
-<category><pattern>ايش يعني علم الاحياء الحاسوبي؟</pattern>
-<template>معناه استخدام أحدث تقنيات الرياضيات التطبيقيه والإحصاء وعلوم الحاسب عشان نحل مشكلات بيولوجية حيوية<think> 				
-<set name="it"><set name="topic">علم الاحياء</set></set> 			
-</think></template>
-</category>
 <category><pattern>ايش يعني علم الأحياء؟</pattern>
 <template>علم طبيعي يهتم بدراسة الحياة والكائنات الحية</template>
 </category>
@@ -115,13 +114,72 @@
 <category><pattern>كم عدد عضلات جسم الإنسان؟</pattern>
 <template>٦٢٠ عضلة</template>
 </category>
+<category><pattern>ايش يعني خلية؟</pattern>
+<template>الوحدة الاساسية للحياة واصغر جزء في المخلوق الحي قادر على الحياة بمشيئة الله</template>
+</category>
+<category><pattern>ايش هي الخلية؟</pattern>
+<template>الوحدة الاساسية للحياة واصغر جزء في المخلوق الحي قادر على الحياة بمشيئة الله</template>
+</category>
+<category><pattern>من ايش تتكون خلايا الانسان؟</pattern>
+<template>من الماء والبروتينات والدهون والاحماض النووية والكربوهيدرات</template>
+</category>
+<category><pattern>ليش يحتاج جسمنا للبروتينات؟</pattern>
+<template>يحتاج جسم الانسان البروتينات عشان نمو الخلايا وتعويض التالف منها</template>
+</category>
+<category><pattern>ليش يحتاج جسم الانسان البروتينات؟</pattern>
+<template>يحتاج جسم الانسان البروتينات عشان نمو الخلايا وتعويض التالف منها</template>
+</category>
+<category><pattern>ليش يحتاج جسمنا للكربوهيدات؟</pattern>
+<template>يحتاج جسم الانسان الكربوهيدرات كمصدر للطاقة</template>
+</category>
+<category><pattern>ليش يحتاج جسم الانسان الكربوهيدرات؟</pattern>
+<template>يحتاج جسم الانسان الكربوهيدرات كمصدر للطاقة</template>
+</category>
+<category><pattern>ليش يحتاج جسمنا للدهون؟</pattern>
+<template>يحتاج جسم الانسان الدهون كمصدر للطاقة</template>
+</category>
+<category><pattern>ليش يحتاج جسم الانسان الدهون؟</pattern>
+<template>يحتاج جسم الانسان الدهون كمصدر للطاقة</template>
+</category>
+<category><pattern>ايش يحتاج النبات عشان يقوم بعملية البناء الضوئي؟</pattern>
+<template>أشعة الشمس وثاني اكسيد الكربون وماء</template>
+</category>
+<category><pattern>ايش يعني عملية البناء الضوئي؟</pattern>
+<template>عملية اتحاد ثاني اكسيد الكربون بالماء بإستخدام الطاقة الضوئية وينتج منها الاكسجين وسكر الجلوكوز</template>
+</category>
+<category><pattern>ليش مافي نباتات على شاطئ البحر؟</pattern>
+<template>لانه تربة الشاطئ مرا مالحة وتركيز الماء فيها منخفض</template>
+</category>
+<category><pattern>كم عدد خلايا الدم الي ينتجها الانسان في الدقيقة الوحدة؟</pattern>
+<template>١٣٨ مليون خلية</template>
+</category>
+<category><pattern>كم عدد خلايا الدم الي ينتجها الانسان في الدقيقه الوحده؟</pattern>
+<template>١٣٨ مليون خلية</template>
+</category>
+<category><pattern>ايش يعني وراثة؟</pattern>
+<template>يعني انتقال الصفات الوراثية من الاباء الي الابناء</template>
+</category>
+<category><pattern>ايش هوا الهيموفيليا؟</pattern>
+<template>مرض وراثي يمنع الدم من التجلط او التخثر</template>
+</category>
+<category><pattern>ايش هي أجزاء النباتات؟</pattern>
+<template>الساق و الجذور والاوراق</template>
+</category>
+<category><pattern>ايش هي اجزاء النباتات؟</pattern>
+<template>الساق و الجذور والاوراق</template>
+</category>
+<category><pattern>ليش تحتاج الخلايا للاكسجين؟</pattern>
+<template>عشان تحول جزئيات الغذاء الى طاقة نقدر نستخدمها</template>
+</category>
+<category><pattern>كم عدد نبضات القلب في اليوم الواحد؟</pattern>
+<template>١١٥٢٠٠ نبضة في اليوم</template>
+</category>
+<category><pattern>كم عدد نبضات القلب في الدقيقة الوحدة؟</pattern>
+<template>٨٠ نبضة</template>
+</category>
 <!-- ——————————————————————————————————علم الارض والكواكب—————————————————————————————————————— -->
 <category><pattern>ايش هي الكواكب الشمسية؟</pattern>
 <template>عطارد،الزهرة،الارض،المريخ،المشتري،زحل،اورانوس،بلوتو،نبتون 
-</template>
-</category>
-<category><pattern>ايش تعرف عن كوكب الزهرة؟</pattern>
-<template>هو ثاني كوكب من كواكب المجموعة الشمسية من ناحية قربه إلى الشمس. ويبعد الزهرة عن الشمس حوالي ١٠٨ مليون كيلومتر، ومدارها حول الشمس مو دائريا تماما. وهو كوكب ترابي مثل عطارد والمريخ، شبيه بكوكب الأرض من ناحية الحجم والتركيب وهو أقرب إلى الشمس من الأرض 
 </template>
 </category>
 <category><pattern>كم تبعد الشمس عن الارض؟</pattern>
@@ -130,10 +188,6 @@
 </category>
 <category><pattern>كم يبعد القمر عن الارض؟</pattern>
 <template>يبعد القمر عن الارض حوالي ٢٥٠ ألف ميل 
-</template>
-</category>
-<category><pattern>وين كوكب الزهرة؟</pattern>
-<template><srai>ايش تعرف عن كوكب الزهرة؟</srai>
 </template>
 </category>
 <category><pattern>أقرب كوكب للشمس</pattern>
@@ -147,5 +201,65 @@
 </category>
 <category><pattern>ابعد كوكب عن الشمس</pattern>
 <template>نبتون</template>
+</category>
+<category><pattern>ايش هوا الكون؟</pattern>
+<template>كل شيء موجود زي الارض والكواكب والنجوم والفضاء
+</template>
+</category>
+<category><pattern>كيف نفرق بين النيازك والشهب؟</pattern>
+<template>اذا احترق الجسم الصخري قبل لا يرتطم بالارض وظهر زي خط لامع بالسماء فهادا شهاب اما اذا مااحترق بالكامل ووصل جزء منه للارض فيصير اسمه نيزك 
+</template>
+</category>
+<category><pattern>كيف نفرق بين النيزك والشهاب؟</pattern>
+<template>اذا احترق الجسم الصخري قبل لا يرتطم بالارض وظهر زي خط لامع بالسماء فهادا شهاب اما اذا مااحترق بالكامل ووصل جزء منه للارض فيصير اسمه نيزك 
+</template>
+</category>
+<category><pattern>نيزك</pattern>
+<template>جرم صغير اصطدم بسطح الارض 
+</template>
+</category>
+<category><pattern>ايش يعني نيزك؟</pattern>
+<template><srai>نيزك</srai>
+</template>
+</category>
+<category><pattern>المجرة</pattern>
+<template>مجموعة كبيرة من النجوم مترابطة مع بعض بالجاذبية
+</template>
+</category>
+<category><pattern>ايش يعني مجرة؟</pattern>
+<template><srai>المجرة</srai>
+</template>
+</category>
+<category><pattern>المذنب</pattern>
+<template>كرة من الجليد والتراب لها مدار متطوال حول الشمس
+</template>
+</category>
+<category><pattern>ايش هوا المذنب؟</pattern>
+<template><srai>المذنب</srai>
+</template>
+</category>
+<category><pattern>ايش هي الفصول الاربعة؟</pattern>
+<template>الصيف والشتاء والربيع والخريف
+</template>
+</category>
+<category><pattern>ليش نشوف اشكال مختلفة للقمر خلال الشهر؟</pattern>
+<template>لانه القمر يدور حول الارض ويتغير الجزء المضاء من القمر وقت دورانه
+</template>
+</category>
+<category><pattern>ايش يعني خسوف القمر؟</pattern>
+<template>خسوف القمر يصير لمن تلقي الارض بظلها علي القمر وتصير الارض  بين الشمس والقمر
+</template>
+</category>
+<category><pattern>ايش يعني خسوف؟</pattern>
+<template>خسوف القمر يصير لمن تلقي الارض بظلها علي القمر وتصير الارض  بين الشمس والقمر
+</template>
+</category>
+<category><pattern>ايش يعني كسوف؟</pattern>
+<template>كسوف الشمس يصير لمن القمر يصير بين الشمس والارض ويلقي بظله على الارض 
+</template>
+</category>
+<category><pattern>ايش يعني كسوف الشمس؟</pattern>
+<template>كسوف الشمس يصير لمن القمر يصير بين الشمس والارض ويلقي بظله على الارض 
+</template>
 </category>
 </aiml>
