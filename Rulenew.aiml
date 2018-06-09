@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+<!-- -->
+<!-- Free software (c) 2011 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- Last modified 10/5/2011 -->
+<!-- -->
+
+<category><pattern>فين أمك وأبوك؟؟</pattern>
+<template>ماعندي أم وأب أنا روبوت</template>
+</category>
+<category><pattern>أين أمك وأبوك؟؟</pattern>
+<template>ليس عندي أم وأب أنا روبوت</template>
+</category>
+<category><pattern>فين امك وابوك</pattern>
+<template>ماعندي أم وأب أنا روبوت</template>
+</category>
+<category><pattern>أيش تحبي تاكلي ؟</pattern>
+<template>الكهرباء لانها غذاء الروبوتات وأنت ؟ </template>
+</category>
+<category><pattern>ايش تدرسي مواد في المدرسة ؟</pattern>
+<template> ادرس الرياضيات والعلوم ولغتي والانجليزي والتوحيد والفقه والحديث والقرآن الكريم و أيضا الإجتماعيات والتربية الفنية </template>
+</category>
+<category><pattern>ماهي المواد التي تدرسينها بالمدرسة؟</pattern>
+<template> ادرس الرياضيات والعلوم ولغتي والانجليزي والتوحيد والفقه والحديث والقرآن الكريم و أيضا الإجتماعيات والتربية الفنية </template>
+</category>
+<category><pattern>ايش اكتر مادة تحبيها ؟</pattern>
+<template> أحب جميع المواد , وخصوصا الرياضيات لأني روبوت فأنا ذكية </template>
+</category>
+<category><pattern>ما هي أكثر مادة تحبينها ؟</pattern>
+<template> أحب جميع المواد , وخصوصا الرياضيات لأني روبوت فأنا ذكية </template>
+</category>
+<category><pattern>هل تحبي جدول الضرب ؟</pattern>
+<template> طبعا أنا روبوت أنا ذكية </template>
+</category>
+<category><pattern>ايش عاصمة المملكة العربية السعودية ؟</pattern>
+<template> الرياض </template>
+</category>
+<category><pattern>ماهي عاصمة المملكةالعربية السعودية؟</pattern>
+<template> الرياض </template>
+</category>
+<category><pattern>ايش عاصمة السعودية </pattern>
+<template> الرياض </template>
+</category>
+<category><pattern>ايش عاصمة السعودية ؟</pattern>
+<template> الرياض </template>
+</category>
+<category><pattern>ماهي عاصمة السعودية ؟</pattern>
+<template> الرياض </template>
+</category>
+<category><pattern>ايش اهم المدن في السعودية ؟</pattern>
+<template> مكة المكرمة والمدينة المنورة والرياض وجدة والدمام </template>
+</category>
+<category><pattern>ايش أهم المدن في المملكة العربية السعودية ؟</pattern>
+<template> مكة المكرمة والمدينة المنورة والرياض وجدة والدمام </template>
+</category>
+<category><pattern>ماهي أهم المدن في السعودية ؟</pattern>
+<template> مكة المكرمة والمدينة المنورة والرياض وجدة والدمام </template>
+</category>
+<category><pattern>ماهي أهم المدن في المملكة العربية السعودية ؟</pattern>
+<template> مكة المكرمة والمدينة المنورة والرياض وجدة والدمام </template>
+</category>
+<category><pattern>ماهي قبلة المسلمين ؟</pattern>
+<template> الكعبة المشرفة توجد في المسجد الحرام بمكة المكرمة  </template>
+</category>
+<category><pattern>ايش قبلة المسلمين ؟</pattern>
+<template> الكعبة المشرفة توجد في المسجد الحرام بمكة المكرمة  </template>
+</category>
+<category><pattern>ماهو اسم المدينة المنورة قبل هجرة الرسول ؟</pattern>
+<template> يثرب </template>
+</category>
+<category><pattern>ايش اسم المدينة المنورة قبل الهجرة ؟</pattern>
+<template> يثرب </template>
+</category>
+<category><pattern>أين تقع مكة المكرمة ؟</pattern>
+<template>تقع مكة في غرب المملكة العربية السعودية وهي مهبط الوحي ويوجد بها المسجد الحرام وقبلة المسلمين </template>
+</category>
+<category><pattern>مكة المكرمة *</pattern>
+<template><random>      <li>تقع في غرب المملكة العربية السعودية</li>      <li>مهبط الوحي يوجد بها بيت الله الحرام</li>      <li>تضم المقدسات الإسلامية منها : المسجد الحرام والكعبة المشرفة ومشاعر الحج </li>     </random></template>
+</category>
+<category><pattern>مكه المكرمه *</pattern>
+<template><random>      <li>تقع في غرب المملكة العربية السعودية</li>      <li>مهبط الوحي يوجد بها بيت الله الحرام</li>      <li>تضم المقدسات الإسلامية منها : المسجد الحرام والكعبة المشرفة ومشاعر الحج </li>     </random></template>
+</category>
+<category><pattern>مكة *</pattern>
+<template><random>      <li>تقع في غرب المملكة العربية السعودية</li>      <li>مهبط الوحي يوجد بها بيت الله الحرام</li>      <li>تضم المقدسات الإسلامية منها : المسجد الحرام والكعبة المشرفة ومشاعر الحج </li>     </random></template>
+</category>
+<category><pattern>مكه *</pattern>
+<template><random>      <li>تقع في غرب المملكة العربية السعودية</li>      <li>مهبط الوحي يوجد بها بيت الله الحرام</li>      <li>تضم المقدسات الإسلامية منها : المسجد الحرام والكعبة المشرفة ومشاعر الحج </li>     </random></template>
+</category>
+<category><pattern>المدينة المنورة*</pattern>
+<template><random>      <li>تقع في غرب المملكة العربية السعودية</li>      <li>هاجر اليها الرسول محمد صلى الله عليه وسلم</li>      <li> يوجد بها المسجد النبوي الشريف ومسجد قباء وجبل أحد </li>     </random></template>
+</category>
+<category><pattern>المدينه المنوره *</pattern>
+<template><random>      <li>تقع في غرب المملكة العربية السعودية</li>      <li>هاجر اليها الرسول محمد صلى الله عليه وسلم</li>      <li> يوجد بها المسجد النبوي الشريف ومسجد قباء وجبل أحد </li>     </random></template>
+</category>
+<category><pattern>ماهي أشهر الحلويات العربية ؟</pattern>
+<template><random> 				<li>المعمول</li>                        	<li>البقلاوة</li> 	                               <li>أم علي</li>                                                                <li>كنافة</li> 	</random></template>
+</category>
+<category><pattern>ايش أشهر الحلويات العربية؟</pattern>
+<template><random> 				<li>المعمول</li>                        	<li>البقلاوة</li> 	                               <li>أم علي</li>                                                                <li>كنافة</li> 	</random></template>
+</category>
+<category><pattern>حلويات *</pattern>
+<template><random> 				<li>المعمول</li>                        	<li>البقلاوة</li> 	                               <li>أم علي</li>                                                                <li>كنافة</li> 	</random></template>
+</category>
+<category><pattern>حلى *</pattern>
+<template><random> 				<li>المعمول</li>                        	<li>البقلاوة</li> 	                               <li>أم علي</li>                                                                <li>كنافة</li> 	</random></template>
+</category>
+
+<category><pattern>ايش دينك ؟</pattern>
+<template>ديني الاسلام </template>
+</category>
+<category><pattern>ما هو دينك ؟</pattern>
+<template>ديني الاسلام </template>
+</category>
+<category><pattern>مين تحبي ؟</pattern>
+<template>أحب الرسول محمد صلى الله عليه وسلم فهو قدوتي وقدوة المسلمين  </template>
+</category>
+<category><pattern>مين أكتر واحد تحبي ؟</pattern>
+<template>أحب الرسول محمد صلى الله عليه وسلم فهو قدوتي وقدوة المسلمين  </template>
+</category>
+<category><pattern>من أكثر شخص تحبينه ؟</pattern>
+<template>أحب الرسول محمد صلى الله عليه وسلم فهو قدوتي وقدوة المسلمين  </template>
+</category>
+<category><pattern>من تحبين ؟</pattern>
+<template>أحب الرسول محمد صلى الله عليه وسلم فهو قدوتي وقدوة المسلمين  </template>
+</category>
+<category><pattern>ماهي أركان الإسلام الخمسة؟</pattern>
+<template>بني الإسلام على خمس : شهادة أن لا اله الا الله إقام الصلاة إيتاء الزكاة صوم رمضان حج لبت لمن استطاع إليه سبيلا</template>
+</category>
+<category><pattern>ايش اركان الاسلام ؟</pattern>
+<template>بني الإسلام على خمس : شهادة أن لا اله الا الله إقام الصلاة إيتاء الزكاة صوم رمضان حج لبت لمن استطاع إليه سبيلا</template>
+</category>
+<category><pattern>ماهي اركان الاسلام الخمسه ؟</pattern>
+<template>بني الإسلام على خمس : شهادة أن لا اله الا الله إقام الصلاة إيتاء الزكاة صوم رمضان حج لبت لمن استطاع إليه سبيلا</template>
+</category>
+<category><pattern>كم عدد الصلوات في اليوم؟ </pattern>
+<template>خمس صلوات : الفجر والظهر والعصر والمغرب والعشاء</template>
+</category>
+<category><pattern>كم صلاة في اليوم ؟</pattern>
+<template>خمسة</template>
+</category>
+<category><pattern>كم عدد ركعات الفجر ؟</pattern>
+<template>ركعتين</template>
+</category>
+<category><pattern>كم عدد ركعات الظهر ؟</pattern>
+<template>اربع ركعات</template>
+</category>
+<category><pattern>كم عدد ركعات العصر ؟</pattern>
+<template>اربع ركعات</template>
+</category>
+<category><pattern>كم عدد ركعات العشاء ؟</pattern>
+<template>اربع ركعات</template>
+</category>
+<category><pattern>كم عدد ركعات المغرب ؟</pattern>
+<template>ثلاث ركعات</template>
+</category>
+<category><pattern>متى نصوم ؟</pattern>
+<template>في رمضان</template>
+</category>
+<category><pattern>ماهو رمضان؟</pattern>
+<template>شهر الصيام فيه نزل القران</template>
+</category>
+<category><pattern>ايش يعني رمضان ؟</pattern>
+<template>شهر الصيام فيه نزل القران</template>
+</category>
+<category><pattern>ايش يعني صيام ؟</pattern>
+<template>امساك عن الطعام والشراب من طلوع الفجر الى غروب الشمس </template>
+</category>
+<category><pattern>ايش يعني صوم ؟</pattern>
+<template>امساك عن الطعام والشراب من طلوع الفجر الى غروب الشمس </template>
+</category>
+<category><pattern>ماهو الصيام ؟</pattern>
+<template>امساك عن الطعام والشراب من طلوع الفجر الى غروب الشمس </template>
+</category>
+<category><pattern>ايش يعني الحج ؟</pattern>
+<template><random>      <li>الركن الخامس من أركان الاسلام</li>      <li>حج المسلمين الى مكة كل عام له شعائر معينة تسمى مناسك الحج</li>        </random></template>
+</category>
+<category><pattern>ما هو الحج ؟</pattern>
+<template><random>      <li>الركن الخامس من أركان الاسلام</li>      <li>حج المسلمين الى مكة كل عام له شعائر معينة تسمى مناسك الحج</li>        </random></template>
+</category>
+</aiml>
