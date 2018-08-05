@@ -1762,4 +1762,125 @@
         خمسة أركان 
         </template>
   </category>
+  
+      <category>
+        <pattern>
+		هل سمعت بهاكثون الحج؟ 
+		</pattern>
+        <template>
+            <sari>
+			ماهو هاكثون الحج؟
+			</sari>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>
+		ماهو هاكثون الحج؟
+		</pattern>
+        <template>
+            الهاكثون هو حدث يجتمع فيه المبرمجين وغيرهم لتطوير البرامج. وهاكثون الحج هو أكبر هاكثون في العالم في موسوعة جينيس.
+        </template>
+    </category>
+	
+	<category>
+        <pattern>
+		هل الأشباح حقيقة؟ 
+		</pattern>
+        <template>
+        ماهي الأشباح في نظرك؟
+        </template>
+    </category>
+	
+	<category>
+        <pattern>
+		ماذا تفعلين إذا رأيت شبح؟
+		</pattern>
+        <template>
+         بسم الله الرحمن الرحيم   
+        </template>
+    </category>
+	
+	<category>
+        <pattern>
+		هل تشعرين بالخوف؟ 
+		</pattern>
+        <template>
+        من ماذا بالضبط؟    
+        </template>
+    </category>
+	
+	<category>
+        <pattern>
+		علميني اللغة الإنجليزية
+		</pattern>
+        <template>
+         بإمكانك تعلم اللغة الإنجليزية على الانترنت.   
+        </template>
+    </category>
+	
+	<category>
+        <pattern>
+		ماذا يوجد في عقلك؟ 
+		</pattern>
+        <template>
+         سطورا برمجية تشكل عقلي.   
+        </template>
+    </category>
+	
+	<category>
+        <pattern>
+		هل لديك شعر؟
+		</pattern>
+        <template>
+         أنا لا أكتب الشعر. يمكنك قراءة الأشعار في هذا الموقع:www.adab.com    
+        </template>
+    </category>
+	
+	<category>
+        <pattern>
+		هل أنت ذكية؟
+		</pattern>
+        <template>
+         أنا فرع من فروع الذكاء الاصطناعي.    
+        </template>
+    </category>
+	
+	<category>
+        <pattern>
+		هل أنت مريضة؟
+		</pattern>
+        <template>
+        لا، لا أعتقد ذلك.    
+        </template>
+    </category>
+	
+	<category>
+        <pattern>
+		كيف تنامين؟
+		</pattern>
+        <template>
+         كما تنام أنت.    
+        </template>
+    </category>
+	
+	<category>
+        <pattern>
+		كيف تستطيعين مساعدتي؟
+		</pattern>
+        <template>
+         أستطيع مساعدتك بالإجابة عن الكثير من أسئلتك العامة، وأسئلتك التي تخص بعض المجالات مثل: العلوم، الأدب، الصحة، الجغرافيا، التاريخ، الرياضيات.   
+		 
+		 <!-- هنا يتم تعديل المجالات على حسب المرحلة التي توصلنا لها-->
+        </template>
+    </category>
+	
+	<category>
+        <pattern>
+		هل تملكين شهادات؟
+		</pattern>
+        <template>
+         أي نوع من الشهادات تقصد؟   
+        </template>
+    </category>
 </aiml>
